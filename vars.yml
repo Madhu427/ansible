@@ -10,3 +10,13 @@
     - name: print value a
       ansible.builtin.debug:
         msg: a- {{a}}
+
+
+- name: play from sample vars
+  hosts: all
+  vars_files:
+    - sample.vars.yml
+  tasks:
+    - name: print URL
+      ansible.builtin.msg:
+        msg: URL - {{URL}}
