@@ -1,0 +1,8 @@
+- name: play for varaiables
+  hosts: all
+  vars:
+    URL: play.example.com
+  tasks:
+    -  name: print a value
+       ansible.builtin.debug:
+         msg: URL - {{URL}}
