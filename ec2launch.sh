@@ -1,3 +1,6 @@
 #!/bin/bash
 
-aws ec2 request-spot-instances  --instance-count 1 --type "persistent" --launch-specification file://spot.json --tag-specifications "ResourceType=spot-instances-request,Tags=[{Key=Name,Value=frontend}]"
+TEMP_ID="lt-0755cc2cbc460e5f3"
+TEMP_VER=1
+
+aws ec2 run-instances LaunchTemplateId=$(TEMP_ID),Version=$(TEMP_VER)
