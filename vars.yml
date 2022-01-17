@@ -2,7 +2,11 @@
   hosts: all
   vars:
     URL: play.example.com
+    a: 1000
   tasks:
     -  name: print a value
        ansible.builtin.debug:
          msg: URL - {{URL}}
+    - name: print value a
+      ansible.builtin.debug:
+        msg: a- {{a}}
