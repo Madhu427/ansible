@@ -3,8 +3,8 @@
 TEMP_ID="lt-0755cc2cbc460e5f3"
 TEMP_VER=5
 
-if [ -z "$1" ] then
-  echo "Input missing"
+if [ -z "$1" ]; then
+  echo "Input is missing"
   exit
 fi
 
