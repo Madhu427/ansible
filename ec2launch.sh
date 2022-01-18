@@ -20,3 +20,7 @@ if [ $? -eq 0 ]; then
 fi
 
 aws ec2 run-instances --launch-template LaunchTemplateId=${TEMP_ID},Version=${TEMP_VER} --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=${COMPONENT}}]"  | jq
+
+IPADDRESS=$(aws ec2 describe-instances --filters "Name=tag:Name,Values=mongodb" | jq .Reservations[].Instances[].PrivateIpAddress | sed 's/"//g')
+
+sed -e 's/IPADDRESS/${IPADDRESS}' -e 's/COMPONENT/${COMPONENT}' record.json
