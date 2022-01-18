@@ -12,7 +12,7 @@ COMPONENT=$1
 
 
 
-aws ec2 describe-instances --filters "Name=tag:name,Values=${COMPONENT}" | jq .Reservations[].Instances[].State.Name | sed 's/"//g' | grep -E "running|stopped" &>/dev/null
+aws ec2 describe-instances --filters "Name=tag:Name,Values=${COMPONENT}" | jq .Reservations[].Instances[].State.Name | sed 's/"//g' | grep -E "running|stopped" &>/dev/null
 
 if [ $? -eq 0 ]; then
   echo "Instance is already there"
