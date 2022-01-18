@@ -25,4 +25,4 @@ aws ec2 run-instances --launch-template LaunchTemplateId=${TEMP_ID},Version=${TE
 IPADDRESS=$(aws ec2 describe-instances --filters "Name=tag:Name,Values=mongodb" | jq .Reservations[].Instances[].PrivateIpAddress | sed 's/"//g')
 
 sed -e 's/IPADDRESS/${IPADDRESS}/' -e 's/COMPONENT/${COMPONENT}/' record.json >/tmp/record.json
-aws route53 change-resource-record-sets --hosted-zone-id ${ZONE_ID} --change-batch file://tmp/record.json
+aws route53 change-resource-record-sets --hosted-zone-id ${ZONE_ID} --change-batch file:///tmp/record.json
