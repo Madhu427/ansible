@@ -4,7 +4,7 @@ TEMP_ID="lt-0755cc2cbc460e5f3"
 TEMP_VER=5
 
 if [ -z "$1" ]; then
-  echo -e "\e[1;31Input is missing\e[0m"
+  echo -e "\e[1;31mInput is missing\e[0m"
   exit
 fi
 
