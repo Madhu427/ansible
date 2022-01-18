@@ -1,7 +1,7 @@
 #!/bin/bash
 
 TEMP_ID="lt-06c5374ac5f24eb25"
-TEMP_VER=1
+TEMP_VER=2
 
 if [ -z "$1" ]; then
   echo -e "\e[1;31mInput is missing\e[0m"
