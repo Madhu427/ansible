@@ -17,10 +17,13 @@ aws ec2 describe-instances --filters "Name=tag:Name,Values=${COMPONENT}" | jq .R
 
 if [ $? -eq 0 ]; then
   echo -e "\e[1;33mInstance is already there\e[0m"
-  exit
+
+else
+  aws ec2 run-instances --launch-template LaunchTemplateId=${TEMP_ID},Version=${TEMP_VER} --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=${COMPONENT}}]"
+
 fi
 
-aws ec2 run-instances --launch-template LaunchTemplateId=${TEMP_ID},Version=${TEMP_VER} --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=${COMPONENT}}]"  | jq
+  | jq
 
 IPADDRESS=$(aws ec2 describe-instances --filters "Name=tag:Name,Values=${COMPONENT}" | jq .Reservations[].Instances[].PrivateIpAddress | sed 's/"//g' | grep -v null)
 
