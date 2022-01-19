@@ -9,15 +9,19 @@
     dest: /tmp
     remote_src: yes
 
-#
-#    # yum install nginx -y
-#    # systemctl enable nginx
-#    # systemctl start nginx
-#    Let's download the HTML content that serves the RoboSHop Project UI and deploy under the Nginx path.
-#
-#    # curl -s -L -o /tmp/frontend.zip "https://github.com/roboshop-devops-project/frontend/archive/main.zip"
-#    Deploy in Nginx Default Location.
-#
+- name: Remove old html web pages
+  ansible.builtin.file:
+    path: /usr/share/nginx/html
+    state: absent
+
+- name: Copy the html web pages
+  ansible.builtin.copy:
+    src: /tmp/frontend-main/static/
+    dest: /usr/share/nginx/html/
+    remote_src: yes
+
+-
+
 #    # cd /usr/share/nginx/html
 #    # rm -rf *
 #    # unzip /tmp/frontend.zip

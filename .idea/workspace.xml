@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="ansible.cfg added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/frontend/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/frontend/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,13 +46,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00011" summary="simple play book from task2">
-      <created>1642389365547</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1642389365548</updated>
     </task>
     <task id="LOCAL-00012" summary="vars play book">
       <created>1642392175455</created>
@@ -389,7 +383,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642591000471</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="ansible.cfg added">
+      <created>1642592170140</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1642592170140</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
