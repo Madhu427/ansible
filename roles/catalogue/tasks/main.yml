@@ -1,10 +1,10 @@
 - name: Install Nodejs Service
-  yum:
+  ansible.buitin.yum:
    name:
       - nodejs
       - make
       - gcc-c++
-   state: installed
+   state: latest
 
 - name: App user setup
   ansible.builtin.user:
