@@ -1,6 +1,6 @@
 - name: Install Nodejs Service
-  ansible.builtin.yum:
-    name:
+  yum:
+   name:
       - nodejs
       - make
       - gcc-c++
