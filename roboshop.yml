@@ -1,5 +1,6 @@
 - name: Frontend Setup
   hosts: FRONTEND
+  become: yes
   roles:
     -frontend
 
