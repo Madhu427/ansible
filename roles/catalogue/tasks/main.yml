@@ -4,7 +4,7 @@
       - nodejs
       - make
       - gcc-c++
-    state: installed
+   state: installed
 
 - name: App user setup
   ansible.builtin.user:
