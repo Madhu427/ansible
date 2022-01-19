@@ -2,5 +2,5 @@
   hosts: FRONTEND
   become: yes
   roles:
-    -frontend
+    - frontend
 
