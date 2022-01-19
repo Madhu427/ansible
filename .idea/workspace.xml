@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="adding vars to both mongod and frontend">
-      <change afterPath="$PROJECT_DIR$/roles/catalogue/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="catalogue config" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,13 +43,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00026" summary="cahnged version in ec2launch">
-      <created>1642480680850</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1642480680850</updated>
     </task>
     <task id="LOCAL-00027" summary="cahnged version in ec2launch">
       <created>1642481010378</created>
@@ -390,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642605356094</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="catalogue config">
+      <created>1642613485983</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1642613485998</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -405,7 +402,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="vars play book" />
     <MESSAGE value="vars play book - print a values" />
     <MESSAGE value="vars play book - adding sample.vars file" />
     <MESSAGE value="vars play book - adding sample.vars file &quot;msg -- debug&quot;" />
@@ -430,6 +426,7 @@
     <MESSAGE value=" front end f&amp;f config" />
     <MESSAGE value="mongodb config" />
     <MESSAGE value="adding vars to both mongod and frontend" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding vars to both mongod and frontend" />
+    <MESSAGE value="catalogue config" />
+    <option name="LAST_COMMIT_MESSAGE" value="catalogue config" />
   </component>
 </project>

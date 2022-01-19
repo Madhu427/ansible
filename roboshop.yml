@@ -10,4 +10,10 @@
   roles:
     - mongodb
 
+- name: Catalogue Setup
+  hosts: CATALOGUE
+  become: yes
+  roles:
+    - catalogue
+
 
