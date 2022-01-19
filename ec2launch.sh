@@ -9,7 +9,7 @@ if [ -z "$1" ]; then
   exit
 fi
 
-COMPONENT=$1
+export COMPONENT=$1
 
 
 
@@ -19,11 +19,10 @@ if [ $? -eq 0 ]; then
   echo -e "\e[1;33mInstance is already there\e[0m"
 
 else
-  aws ec2 run-instances --launch-template LaunchTemplateId=${TEMP_ID},Version=${TEMP_VER} --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=${COMPONENT}}]"
+  aws ec2 run-instances --launch-template LaunchTemplateId=${TEMP_ID},Version=${TEMP_VER} --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=${COMPONENT}}]" | jq
 
 fi
 
-  | jq
 
 IPADDRESS=$(aws ec2 describe-instances --filters "Name=tag:Name,Values=${COMPONENT}" | jq .Reservations[].Instances[].PrivateIpAddress | sed 's/"//g' | grep -v null)
 
