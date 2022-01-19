@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="catalogue config">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="catalogue setup in roboshop.yml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,13 +43,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00028" summary="cahnged version in ec2launch">
-      <created>1642481084599</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1642481084599</updated>
     </task>
     <task id="LOCAL-00029" summary="cahnged version in ec2launch">
       <created>1642481185761</created>
@@ -389,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642613680064</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="catalogue setup in roboshop.yml">
+      <created>1642614505205</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1642614505250</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -404,7 +402,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="vars play book - print a values" />
     <MESSAGE value="vars play book - adding sample.vars file" />
     <MESSAGE value="vars play book - adding sample.vars file &quot;msg -- debug&quot;" />
     <MESSAGE value="ec2 launch and spot json" />
@@ -429,6 +426,7 @@
     <MESSAGE value="mongodb config" />
     <MESSAGE value="adding vars to both mongod and frontend" />
     <MESSAGE value="catalogue config" />
-    <option name="LAST_COMMIT_MESSAGE" value="catalogue config" />
+    <MESSAGE value="catalogue setup in roboshop.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="catalogue setup in roboshop.yml" />
   </component>
 </project>
