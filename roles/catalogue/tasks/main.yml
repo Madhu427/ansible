@@ -1,4 +1,4 @@
-- name: install Nodejs service
+- name: Install Nodejs service
   ansible.builtin.yum:
     name:
       - nodejs
