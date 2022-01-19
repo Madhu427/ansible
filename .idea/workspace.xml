@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="catalogue setup in roboshop.yml">
-      <change beforePath="$PROJECT_DIR$/roles/catalogue/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/catalogue/tasks/main.yml" afterDir="false" />
-    </list>
+    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="catalogue setup in roboshop.yml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,34 +43,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00034" summary="shell script implemented on ec2launch">
-      <created>1642488050543</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1642488050543</updated>
-    </task>
-    <task id="LOCAL-00035" summary="shell script implemented on ec2launch">
-      <created>1642489375215</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1642489375215</updated>
-    </task>
-    <task id="LOCAL-00036" summary="shell script implemented on ec2launch">
-      <created>1642489614485</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1642489614485</updated>
-    </task>
-    <task id="LOCAL-00037" summary="shell script implemented on ec2launch">
-      <created>1642489809278</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1642489809278</updated>
     </task>
     <task id="LOCAL-00038" summary="shell script implemented on ec2launch">
       <created>1642489847350</created>
@@ -389,7 +359,35 @@
       <option name="project" value="LOCAL" />
       <updated>1642615588049</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="catalogue setup in roboshop.yml">
+      <created>1642615991766</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1642615991766</updated>
+    </task>
+    <task id="LOCAL-00084" summary="catalogue setup in roboshop.yml">
+      <created>1642616070962</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1642616070962</updated>
+    </task>
+    <task id="LOCAL-00085" summary="catalogue setup in roboshop.yml">
+      <created>1642616225440</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1642616225440</updated>
+    </task>
+    <task id="LOCAL-00086" summary="catalogue setup in roboshop.yml">
+      <created>1642616266623</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1642616266624</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
