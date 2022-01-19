@@ -17,7 +17,7 @@
 - name: enable and restart mongodb
   ansible.buitin.systemd:
     name: mogodb
-    state: restarted
+    state: started
     enabled: yes
 
 - name: Download and unzip the mongodb content

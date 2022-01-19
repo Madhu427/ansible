@@ -44,13 +44,6 @@
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
     </task>
-    <task id="LOCAL-00016" summary="ec2 launch and spot json">
-      <created>1642425007900</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1642425007901</updated>
-    </task>
     <task id="LOCAL-00017" summary="ec2 launch and spot json">
       <created>1642425194444</created>
       <option name="number" value="00017" />
@@ -387,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642602670776</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="mongodb config">
+      <created>1642602929001</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1642602929002</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
