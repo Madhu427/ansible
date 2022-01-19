@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="ansible --&gt; frontend">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roboshop.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +19,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="23irmeObb6MbG4BJNm82xPWaPew" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -43,13 +45,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00008" summary="simple play book">
-      <created>1642254189931</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1642254189931</updated>
     </task>
     <task id="LOCAL-00009" summary="simple play book">
       <created>1642254221051</created>
@@ -387,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642583883006</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="ansible --&gt; frontend">
+      <created>1642583946620</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1642583946620</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
