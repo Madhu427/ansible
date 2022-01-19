@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="updated record.json with COMPONENT.roboshop.internal" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="23irmeObb6MbG4BJNm82xPWaPew" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="" />
+      <created>1642227908812</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642227908812</updated>
+    </task>
+    <task id="LOCAL-00002" summary="simple play book">
+      <created>1642252797477</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1642252797477</updated>
+    </task>
+    <task id="LOCAL-00003" summary="simple play book">
+      <created>1642252804810</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1642252804810</updated>
+    </task>
+    <task id="LOCAL-00004" summary="simple play book">
+      <created>1642252862348</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1642252862348</updated>
+    </task>
+    <task id="LOCAL-00005" summary="simple play book">
+      <created>1642252996425</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1642252996425</updated>
+    </task>
+    <task id="LOCAL-00006" summary="simple play book">
+      <created>1642253080806</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1642253080806</updated>
+    </task>
+    <task id="LOCAL-00007" summary="simple play book">
+      <created>1642253254381</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1642253254381</updated>
+    </task>
+    <task id="LOCAL-00008" summary="simple play book">
+      <created>1642254189931</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1642254189931</updated>
+    </task>
+    <task id="LOCAL-00009" summary="simple play book">
+      <created>1642254221051</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1642254221051</updated>
+    </task>
+    <task id="LOCAL-00010" summary="simple play book">
+      <created>1642254262061</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1642254262061</updated>
+    </task>
+    <task id="LOCAL-00011" summary="simple play book from task2">
+      <created>1642389365547</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1642389365548</updated>
+    </task>
+    <task id="LOCAL-00012" summary="vars play book">
+      <created>1642392175455</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1642392175455</updated>
+    </task>
+    <task id="LOCAL-00013" summary="vars play book - print a values">
+      <created>1642392910069</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1642392910069</updated>
+    </task>
+    <task id="LOCAL-00014" summary="vars play book - adding sample.vars file">
+      <created>1642393242897</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1642393242897</updated>
+    </task>
+    <task id="LOCAL-00015" summary="vars play book - adding sample.vars file &quot;msg -- debug&quot;">
+      <created>1642393341878</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1642393341878</updated>
+    </task>
+    <task id="LOCAL-00016" summary="ec2 launch and spot json">
+      <created>1642425007900</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1642425007901</updated>
+    </task>
+    <task id="LOCAL-00017" summary="ec2 launch and spot json">
+      <created>1642425194444</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1642425194444</updated>
+    </task>
+    <task id="LOCAL-00018" summary="ec2 launch and spot json">
+      <created>1642425357572</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1642425357572</updated>
+    </task>
+    <task id="LOCAL-00019" summary="ec2 launch and spot json-- changed ec2.launch file">
+      <created>1642430876815</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1642430876815</updated>
+    </task>
+    <task id="LOCAL-00020" summary="ec2 launch and spot json-- changed ec2.launch file">
+      <created>1642431000153</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1642431000153</updated>
+    </task>
+    <task id="LOCAL-00021" summary="ec2 launch and spot json-- changed ec2.launch file">
+      <created>1642440888476</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1642440888476</updated>
+    </task>
+    <task id="LOCAL-00022" summary="creating spot and normal instance">
+      <created>1642442560184</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1642442560184</updated>
+    </task>
+    <task id="LOCAL-00023" summary="creating spot and normal instance">
+      <created>1642442913369</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1642442913369</updated>
+    </task>
+    <task id="LOCAL-00024" summary="creating spot and normal instance">
+      <created>1642443379008</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1642443379008</updated>
+    </task>
+    <task id="LOCAL-00025" summary="creating spot and normal instance">
+      <created>1642443470845</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1642443470845</updated>
+    </task>
+    <task id="LOCAL-00026" summary="cahnged version in ec2launch">
+      <created>1642480680850</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1642480680850</updated>
+    </task>
+    <task id="LOCAL-00027" summary="cahnged version in ec2launch">
+      <created>1642481010378</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1642481010378</updated>
+    </task>
+    <task id="LOCAL-00028" summary="cahnged version in ec2launch">
+      <created>1642481084599</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1642481084599</updated>
+    </task>
+    <task id="LOCAL-00029" summary="cahnged version in ec2launch">
+      <created>1642481185761</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1642481185761</updated>
+    </task>
+    <task id="LOCAL-00030" summary="cahnged version in ec2launc">
+      <created>1642481309144</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1642481309144</updated>
+    </task>
+    <task id="LOCAL-00031" summary="cahnged version in ec2launc">
+      <created>1642481416311</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1642481416311</updated>
+    </task>
+    <task id="LOCAL-00032" summary="shell script implemented on ec2launch">
+      <created>1642487736473</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1642487736473</updated>
+    </task>
+    <task id="LOCAL-00033" summary="shell script implemented on ec2launch">
+      <created>1642487821948</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1642487821948</updated>
+    </task>
+    <task id="LOCAL-00034" summary="shell script implemented on ec2launch">
+      <created>1642488050543</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1642488050543</updated>
+    </task>
+    <task id="LOCAL-00035" summary="shell script implemented on ec2launch">
+      <created>1642489375215</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1642489375215</updated>
+    </task>
+    <task id="LOCAL-00036" summary="shell script implemented on ec2launch">
+      <created>1642489614485</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1642489614485</updated>
+    </task>
+    <task id="LOCAL-00037" summary="shell script implemented on ec2launch">
+      <created>1642489809278</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1642489809278</updated>
+    </task>
+    <task id="LOCAL-00038" summary="shell script implemented on ec2launch">
+      <created>1642489847350</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1642489847350</updated>
+    </task>
+    <task id="LOCAL-00039" summary="shell script implemented on ec2launch">
+      <created>1642508277755</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1642508277755</updated>
+    </task>
+    <task id="LOCAL-00040" summary="shell script implemented on ec2launch changed version and template">
+      <created>1642508443710</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1642508443710</updated>
+    </task>
+    <task id="LOCAL-00041" summary="updating ip &amp; component record.json">
+      <created>1642511264850</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1642511264850</updated>
+    </task>
+    <task id="LOCAL-00042" summary="updating ip &amp; component record.json">
+      <created>1642512331665</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1642512331665</updated>
+    </task>
+    <task id="LOCAL-00043" summary="updating ip &amp; component record.json">
+      <created>1642512449429</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1642512449429</updated>
+    </task>
+    <task id="LOCAL-00044" summary="updating ip &amp; component record.json">
+      <created>1642512533718</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1642512533718</updated>
+    </task>
+    <task id="LOCAL-00045" summary="placed hosted zone ID">
+      <created>1642571593426</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1642571593478</updated>
+    </task>
+    <task id="LOCAL-00046" summary="dry code --- IPADDRESS">
+      <created>1642574168967</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1642574168985</updated>
+    </task>
+    <task id="LOCAL-00047" summary="dry code --- IPADDRESS">
+      <created>1642574788002</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1642574788002</updated>
+    </task>
+    <task id="LOCAL-00048" summary="IPADDRESS --. grep -v null added">
+      <created>1642575019077</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1642575019078</updated>
+    </task>
+    <task id="LOCAL-00049" summary="updated record.json with COMPONENT.roboshop.internal">
+      <created>1642575554379</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1642575554379</updated>
+    </task>
+    <task id="LOCAL-00050" summary="updated record.json with COMPONENT.roboshop.internal">
+      <created>1642576048994</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1642576049009</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="simple play book" />
+    <MESSAGE value="simple play book from task2" />
+    <MESSAGE value="vars play book" />
+    <MESSAGE value="vars play book - print a values" />
+    <MESSAGE value="vars play book - adding sample.vars file" />
+    <MESSAGE value="vars play book - adding sample.vars file &quot;msg -- debug&quot;" />
+    <MESSAGE value="ec2 launch and spot json" />
+    <MESSAGE value="ec2 launch and spot json-- changed ec2.launch file" />
+    <MESSAGE value="creating spot and normal instance" />
+    <MESSAGE value="cahnged version in ec2launch" />
+    <MESSAGE value="cahnged version in ec2launc" />
+    <MESSAGE value="shell script implemented on ec2launch" />
+    <MESSAGE value="shell script implemented on ec2launch changed version and template" />
+    <MESSAGE value="updating ip &amp; component record.json" />
+    <MESSAGE value="placed hosted zone ID" />
+    <MESSAGE value="dry code --- IPADDRESS" />
+    <MESSAGE value="IPADDRESS --. grep -v null added" />
+    <MESSAGE value="updated record.json with COMPONENT.roboshop.internal" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated record.json with COMPONENT.roboshop.internal" />
+  </component>
+</project>
