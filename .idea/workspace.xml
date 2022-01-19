@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="Copy the html web pages --&gt; front end.">
-      <change afterPath="$PROJECT_DIR$/roles/frontend/files/roboshop.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment=" front end f&amp;f config" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,13 +43,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00013" summary="vars play book - print a values">
-      <created>1642392910069</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1642392910069</updated>
     </task>
     <task id="LOCAL-00014" summary="vars play book - adding sample.vars file">
       <created>1642393242897</created>
@@ -390,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642598651414</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary=" front end f&amp;f config">
+      <created>1642599657869</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1642599657869</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -429,6 +426,7 @@
     <MESSAGE value="INV file updated" />
     <MESSAGE value="ansible.cfg added" />
     <MESSAGE value="Copy the html web pages --&gt; front end." />
-    <option name="LAST_COMMIT_MESSAGE" value="Copy the html web pages --&gt; front end." />
+    <MESSAGE value=" front end f&amp;f config" />
+    <option name="LAST_COMMIT_MESSAGE" value=" front end f&amp;f config" />
   </component>
 </project>
