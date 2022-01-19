@@ -33,7 +33,7 @@ sed -e "s/IPADDRESS/${IPADDRESS}/" -e "s/COMPONENT/${COMPONENT}/" record.json >/
 aws route53 change-resource-record-sets --hosted-zone-id ${ZONE_ID} --change-batch file:///tmp/record.json | jq
 }
 
-if [ "${COMPONENT}"=="all"]; then
+if [ "${COMPONENT}"=="all" ]; then
   for comp in frontend mongodb redis catalogue; do
     COMPONENT=$comp
     CREATE_INST
