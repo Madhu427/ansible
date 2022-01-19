@@ -4,11 +4,9 @@
     state: installed
 
 - name: Download and unzip the frontend content
-  ansible.builtin.unarchive:
-    src: https://github.com/roboshop-devops-project/frontend/archive/main.zip
-    dest: /tmp
-    remote_src: yes
-
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: download
 - name: Remove old html web pages
   ansible.builtin.file:
     path: /usr/share/nginx/html
