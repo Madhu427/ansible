@@ -15,9 +15,9 @@
     replace: '0.0.0.0'
 
 - name: enable and restart mongodb
-  ansible.buitin.systemd:
+  ansible.builtin.systemd:
     name: mogodb
-    state: started
+    state: restarted
     enabled: yes
 
 - name: Download and unzip the mongodb content
