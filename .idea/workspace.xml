@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="var declared in user">
-      <change afterPath="$PROJECT_DIR$/roles/cart/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roboshop.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop.yml" afterDir="false" />
-    </list>
+    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="cart conf &amp; roboshop.yml updated" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,13 +43,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00075" summary="catalogue config">
-      <created>1642613485983</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1642613485998</updated>
     </task>
     <task id="LOCAL-00076" summary="catalogue config">
       <created>1642613680064</created>
@@ -390,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642703681664</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="cart conf &amp; roboshop.yml updated">
+      <created>1642704240778</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1642704240778</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -405,7 +402,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[ &quot;${COMPONENT}&quot; == &quot;all&quot; ]; added to ec2launch" />
     <MESSAGE value="ansible --&gt; frontend" />
     <MESSAGE value="INV file updated" />
     <MESSAGE value="ansible.cfg added" />
@@ -430,6 +426,7 @@
     <MESSAGE value="user config recorrected" />
     <MESSAGE value="node js code --&gt; dry" />
     <MESSAGE value="var declared in user" />
-    <option name="LAST_COMMIT_MESSAGE" value="var declared in user" />
+    <MESSAGE value="cart conf &amp; roboshop.yml updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="cart conf &amp; roboshop.yml updated" />
   </component>
 </project>
