@@ -18,7 +18,7 @@
   ansible.builtin.copy:
     src: https://github.com/roboshop-devops-project/user/archive/main.zip
     dest: /tmp
-  become_user: roboshop
+
 
 - name: remove the old files from user
   ansible.builtin.file:
@@ -27,8 +27,10 @@
 
 - name: copy the new user content
   ansible.builtin.copy:
-    src: /tmp/user
+    src: /tmp/user-main
     dest: /home/roboshop/user
+    remote_src: yes
+  become_user: roboshop
 
 - name: Install nodejs dependencies
   community.general.npm:
