@@ -5,9 +5,9 @@
 - name: yum install nodejs
   ansible.builtin.yum:
    name:
-     - nodejs
-     - make
-     - gcc-c++
+      - nodejs
+      - make
+      - gcc-c++
   state: installed
 
 - name: Add user name

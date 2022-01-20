@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="user &amp; roboshop.yml updated">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="user &amp; roboshop.yml updated" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,27 +43,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00057" summary="ansible --&gt; frontend">
-      <created>1642583946620</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1642583946620</updated>
-    </task>
-    <task id="LOCAL-00058" summary="INV file updated">
-      <created>1642587940240</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1642587940262</updated>
-    </task>
-    <task id="LOCAL-00059" summary="ansible.cfg added">
-      <created>1642591000423</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1642591000471</updated>
     </task>
     <task id="LOCAL-00060" summary="ansible.cfg added">
       <created>1642592170140</created>
@@ -389,7 +366,28 @@
       <option name="project" value="LOCAL" />
       <updated>1642697018139</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="user &amp; roboshop.yml updated">
+      <created>1642697506899</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1642697506899</updated>
+    </task>
+    <task id="LOCAL-00107" summary="user &amp; roboshop.yml updated">
+      <created>1642697617375</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1642697617375</updated>
+    </task>
+    <task id="LOCAL-00108" summary="user &amp; roboshop.yml updated">
+      <created>1642697736491</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1642697736491</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
