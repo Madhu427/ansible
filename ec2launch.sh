@@ -12,7 +12,7 @@ if [ -z "$1" ]; then
   exit
 fi
 
-ENV=$2
+export ENV=$2
 
 if [ ! -z "${ENV}" ]; then
   ENV="-${ENV}"

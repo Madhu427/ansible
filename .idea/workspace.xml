@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="npm--install nodesjs depedencies">
-      <change afterPath="$PROJECT_DIR$/roles/catalogue/templates/systemd.service" afterDir="false" />
+    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="dev implemented">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ec2launch.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ec2launch.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roboshop.inv" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop.inv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/catalogue/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/catalogue/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +45,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00043" summary="updating ip &amp; component record.json">
-      <created>1642512449429</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1642512449429</updated>
     </task>
     <task id="LOCAL-00044" summary="updating ip &amp; component record.json">
       <created>1642512533718</created>
@@ -393,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642657261895</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="dev implemented">
+      <created>1642679583573</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1642679583574</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -408,7 +404,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ec2 launch and spot json-- changed ec2.launch file" />
     <MESSAGE value="creating spot and normal instance" />
     <MESSAGE value="cahnged version in ec2launch" />
     <MESSAGE value="cahnged version in ec2launc" />
@@ -433,6 +428,7 @@
     <MESSAGE value="Setup NodeJS repo --&gt; shell" />
     <MESSAGE value="Setup NodeJS repo --&gt; shell forgot to added curl" />
     <MESSAGE value="npm--install nodesjs depedencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="npm--install nodesjs depedencies" />
+    <MESSAGE value="dev implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="dev implemented" />
   </component>
 </project>
