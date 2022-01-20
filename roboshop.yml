@@ -26,5 +26,12 @@
   roles:
     - redis
 
+- name: User Setup
+  hosts: USER
+  become: yes
+  tags: USER
+  roles:
+    - user
+
 
 

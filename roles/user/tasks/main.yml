@@ -1,0 +1,43 @@
+
+- name: setup nodejs repo
+  shell: curl -fsSL https://rpm.nodesource.com/setup_lts.x | bash -
+
+- name: yum install nodejs
+  ansible.builtin.yum:
+    name:
+     - nodejs
+     - make
+     - gcc-c++
+  state: installed
+
+- name: Add user name
+  ansible.builtin.user:
+    name: roboshop
+
+- name: unzip & download the user files
+  ansible.builtin.copy:
+    src: https://github.com/roboshop-devops-project/user/archive/main.zip
+    dest: /tmp
+  become_user: roboshop
+
+- name: remove the old files from user
+  ansible.builtin.file:
+    path: /home/roboshop/user
+    state: absent
+
+- name: copy the new user content
+  ansible.builtin.copy:
+    src: /tmp/user
+    dest: /home/roboshop/user
+
+- name: Install nodejs dependencies
+  community.general.npm:
+    path: /home/roboshop/user
+  become_user: roboshop
+
+- name: start user services
+  ansible.builtin.systemd:
+    name: user
+      daemon_reload: yes
+      state: restarted
+      enabled: yes
