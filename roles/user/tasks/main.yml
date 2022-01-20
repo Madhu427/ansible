@@ -2,7 +2,7 @@
 - name: setup nodejs repo
   shell: curl -fsSL https://rpm.nodesource.com/setup_lts.x | bash -
 
-- name: yum install nodejs
+- name: install nodejs services
   ansible.builtin.yum:
    name:
       - nodejs
