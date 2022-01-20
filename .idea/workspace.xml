@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="var declared in user" />
+    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="var declared in user">
+      <change afterPath="$PROJECT_DIR$/roles/cart/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roboshop.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,13 +46,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00074" summary="adding vars to both mongod and frontend">
-      <created>1642605356094</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1642605356094</updated>
     </task>
     <task id="LOCAL-00075" summary="catalogue config">
       <created>1642613485983</created>
@@ -387,7 +383,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642703427030</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="var declared in user">
+      <created>1642703681664</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1642703681664</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
