@@ -37,7 +37,7 @@
 
 - name: start user services
   ansible.builtin.systemd:
-    name: nodejs
-      daemon_reload: yes
-      state: restarted
-      enabled: yes
+    name: user
+    daemon_reload: yes
+    state: restarted
+    enabled: yes
