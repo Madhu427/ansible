@@ -4,7 +4,7 @@
 
 - name: yum install nodejs
   ansible.builtin.yum:
-    name:
+   name:
      - nodejs
      - make
      - gcc-c++
