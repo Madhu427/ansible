@@ -2,13 +2,13 @@
 - name: setup nodejs repo
   shell: curl -fsSL https://rpm.nodesource.com/setup_lts.x | bash -
 
-- name: install nodejs services
+- name: Install Node Js services
   ansible.builtin.yum:
-   name:
-      - nodejs
-      - make
-      - gcc-c++
-  state: latest
+    name:
+      -  nodejs
+      -  make
+      -  gcc-c++
+    state: latest
 
 - name: Add user name
   ansible.builtin.user:

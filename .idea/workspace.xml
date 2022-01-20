@@ -44,27 +44,6 @@
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
     </task>
-    <task id="LOCAL-00060" summary="ansible.cfg added">
-      <created>1642592170140</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1642592170140</updated>
-    </task>
-    <task id="LOCAL-00061" summary="Copy the html web pages --&gt; front end.">
-      <created>1642598651397</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1642598651414</updated>
-    </task>
-    <task id="LOCAL-00062" summary=" front end f&amp;f config">
-      <created>1642599657869</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1642599657869</updated>
-    </task>
     <task id="LOCAL-00063" summary=" front end f&amp;f config">
       <created>1642599817282</created>
       <option name="number" value="00063" />
@@ -387,7 +366,28 @@
       <option name="project" value="LOCAL" />
       <updated>1642697736491</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="user &amp; roboshop.yml updated">
+      <created>1642697808185</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1642697808185</updated>
+    </task>
+    <task id="LOCAL-00110" summary="user &amp; roboshop.yml updated">
+      <created>1642697887179</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1642697887180</updated>
+    </task>
+    <task id="LOCAL-00111" summary="user &amp; roboshop.yml updated">
+      <created>1642698155929</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1642698155929</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
