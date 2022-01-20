@@ -15,7 +15,7 @@
     name: roboshop
 
 - name: unzip & download the user files
-  ansible.builtin.copy:
+  ansible.builtin.unarchive:
     src: https://github.com/roboshop-devops-project/user/archive/main.zip
     dest: /tmp
     remote_src: yes
