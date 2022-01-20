@@ -18,6 +18,7 @@
   ansible.builtin.copy:
     src: https://github.com/roboshop-devops-project/user/archive/main.zip
     dest: /tmp
+    remote_src: yes
 
 
 - name: remove the old files from user
