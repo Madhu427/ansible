@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="catalogue setup in roboshop.yml" />
+    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="Setup NodeJS repo --&gt; shell">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,20 +45,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00038" summary="shell script implemented on ec2launch">
-      <created>1642489847350</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1642489847350</updated>
-    </task>
-    <task id="LOCAL-00039" summary="shell script implemented on ec2launch">
-      <created>1642508277755</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1642508277755</updated>
     </task>
     <task id="LOCAL-00040" summary="shell script implemented on ec2launch changed version and template">
       <created>1642508443710</created>
@@ -387,7 +375,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642616266624</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="catalogue setup in roboshop.yml">
+      <created>1642616333023</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1642616333023</updated>
+    </task>
+    <task id="LOCAL-00088" summary="Setup NodeJS repo --&gt; shell">
+      <created>1642646988520</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1642646988520</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -402,7 +404,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="vars play book - adding sample.vars file" />
     <MESSAGE value="vars play book - adding sample.vars file &quot;msg -- debug&quot;" />
     <MESSAGE value="ec2 launch and spot json" />
     <MESSAGE value="ec2 launch and spot json-- changed ec2.launch file" />
@@ -427,6 +428,7 @@
     <MESSAGE value="adding vars to both mongod and frontend" />
     <MESSAGE value="catalogue config" />
     <MESSAGE value="catalogue setup in roboshop.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="catalogue setup in roboshop.yml" />
+    <MESSAGE value="Setup NodeJS repo --&gt; shell" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup NodeJS repo --&gt; shell" />
   </component>
 </project>
