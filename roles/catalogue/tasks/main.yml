@@ -40,10 +40,6 @@
     src: systemd.service
     dest: /etc/systemd/system/catalogue.service
 
-- name: Copy catalogue content
-  ansible.builtin.copy:
-    src: /home/roboshop/catalogue/systemd.service
-    dest: /etc/systemd/system/catalogue.service
 
 - name: Start Catalogue service
   ansible.builtin.systemd:
