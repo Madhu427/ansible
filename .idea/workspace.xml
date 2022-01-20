@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="adding tags to roboshop.yml" />
+    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="template--&gt; frontend">
+      <change afterPath="$PROJECT_DIR$/roles/redis/files/redis.repo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roles/redis/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,13 +47,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00053" summary="[ &quot;${COMPONENT}&quot;==&quot;all&quot;]; added to ec2launch">
-      <created>1642578560461</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1642578560513</updated>
     </task>
     <task id="LOCAL-00054" summary="[ &quot;${COMPONENT}&quot;==&quot;all&quot;]; added to ec2launch">
       <created>1642578631392</created>
@@ -387,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642688722361</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="template--&gt; frontend">
+      <created>1642692945555</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1642692945555</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -402,7 +406,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="shell script implemented on ec2launch changed version and template" />
     <MESSAGE value="updating ip &amp; component record.json" />
     <MESSAGE value="placed hosted zone ID" />
     <MESSAGE value="dry code --- IPADDRESS" />
@@ -427,6 +430,7 @@
     <MESSAGE value="removed become-user from update ip in catalogue" />
     <MESSAGE value="daemon_reload:" />
     <MESSAGE value="adding tags to roboshop.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding tags to roboshop.yml" />
+    <MESSAGE value="template--&gt; frontend" />
+    <option name="LAST_COMMIT_MESSAGE" value="template--&gt; frontend" />
   </component>
 </project>
