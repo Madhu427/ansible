@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="daemon_reload:" />
+    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="adding tags to roboshop.yml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,20 +43,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00051" summary="updated record.json with COMPONENT.roboshop.internal">
-      <created>1642577496179</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1642577496193</updated>
-    </task>
-    <task id="LOCAL-00052" summary="updated record.json with COMPONENT.roboshop.internal">
-      <created>1642577590726</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1642577590726</updated>
     </task>
     <task id="LOCAL-00053" summary="[ &quot;${COMPONENT}&quot;==&quot;all&quot;]; added to ec2launch">
       <created>1642578560461</created>
@@ -387,7 +373,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642687944675</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="daemon_reload:">
+      <created>1642688219543</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1642688219543</updated>
+    </task>
+    <task id="LOCAL-00101" summary="adding tags to roboshop.yml">
+      <created>1642688722361</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1642688722361</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -402,7 +402,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="shell script implemented on ec2launch" />
     <MESSAGE value="shell script implemented on ec2launch changed version and template" />
     <MESSAGE value="updating ip &amp; component record.json" />
     <MESSAGE value="placed hosted zone ID" />
@@ -427,6 +426,7 @@
     <MESSAGE value="-dev.roboshop.internal" />
     <MESSAGE value="removed become-user from update ip in catalogue" />
     <MESSAGE value="daemon_reload:" />
-    <option name="LAST_COMMIT_MESSAGE" value="daemon_reload:" />
+    <MESSAGE value="adding tags to roboshop.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding tags to roboshop.yml" />
   </component>
 </project>
