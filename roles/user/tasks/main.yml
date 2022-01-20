@@ -27,8 +27,8 @@
 
 - name: copy the new user content
   ansible.builtin.copy:
-    src: /tmp/user-main
-    dest: /home/roboshop/user
+    src: /tmp/user-main/
+    dest: /home/roboshop/user/
     remote_src: yes
   become_user: roboshop
 
