@@ -35,6 +35,12 @@
     path: /home/roboshop/catalogue
   become_user: roboshop
 
+- name: Update Ip address of Mongodb server
+  ansible.builtin.template:
+    src: systemd.service
+    dest: /etc/systemd/system/catalogue.service
+  become_user: roboshop
+
 
 
 

@@ -6,11 +6,17 @@ ZONE_ID=Z0686471167SJWZUE9FVZ
 
 export COMPONENT=$1
 
+
 if [ -z "$1" ]; then
   echo -e "\e[1;31mInput is missing\e[0m"
   exit
 fi
 
+ENV=$2
+
+if [ ! -z "${ENV}" ]; then
+  ENV="-${ENV}"
+fi
 
 CREATE_INST() {
 
@@ -34,10 +40,11 @@ aws route53 change-resource-record-sets --hosted-zone-id ${ZONE_ID} --change-bat
 }
 
 if [ "${COMPONENT}" == "all" ]; then
-  for comp in frontend mongodb redis catalogue; do
+  for comp in frontend${ENV} mongodb${ENV} redis${ENV} catalogue${ENV}; do
     COMPONENT=$comp
     CREATE_INST
   done
   else
+    COMPONENT=$COMPONENT$ENV
     CREATE_INST
 fi
