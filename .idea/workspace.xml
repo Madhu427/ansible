@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="dev implemented">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="-dev.roboshop.internal" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,13 +43,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00045" summary="placed hosted zone ID">
-      <created>1642571593426</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1642571593478</updated>
     </task>
     <task id="LOCAL-00046" summary="dry code --- IPADDRESS">
       <created>1642574168967</created>
@@ -389,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642680404240</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="-dev.roboshop.internal">
+      <created>1642680799502</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1642680799502</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -404,7 +402,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="creating spot and normal instance" />
     <MESSAGE value="cahnged version in ec2launch" />
     <MESSAGE value="cahnged version in ec2launc" />
     <MESSAGE value="shell script implemented on ec2launch" />
@@ -429,6 +426,7 @@
     <MESSAGE value="Setup NodeJS repo --&gt; shell forgot to added curl" />
     <MESSAGE value="npm--install nodesjs depedencies" />
     <MESSAGE value="dev implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="dev implemented" />
+    <MESSAGE value="-dev.roboshop.internal" />
+    <option name="LAST_COMMIT_MESSAGE" value="-dev.roboshop.internal" />
   </component>
 </project>
