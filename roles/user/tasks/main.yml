@@ -8,7 +8,7 @@
       - nodejs
       - make
       - gcc-c++
-  state: installed
+  state: latest
 
 - name: Add user name
   ansible.builtin.user:
