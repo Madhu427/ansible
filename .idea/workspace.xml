@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="cart conf &amp; roboshop.yml updated" />
+    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="vars added to cart">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,13 +45,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00076" summary="catalogue config">
-      <created>1642613680064</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1642613680064</updated>
     </task>
     <task id="LOCAL-00077" summary="catalogue setup in roboshop.yml">
       <created>1642614505205</created>
@@ -387,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642704240778</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="vars added to cart">
+      <created>1642704612806</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1642704612806</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -402,7 +404,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ansible --&gt; frontend" />
     <MESSAGE value="INV file updated" />
     <MESSAGE value="ansible.cfg added" />
     <MESSAGE value="Copy the html web pages --&gt; front end." />
@@ -427,6 +428,7 @@
     <MESSAGE value="node js code --&gt; dry" />
     <MESSAGE value="var declared in user" />
     <MESSAGE value="cart conf &amp; roboshop.yml updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="cart conf &amp; roboshop.yml updated" />
+    <MESSAGE value="vars added to cart" />
+    <option name="LAST_COMMIT_MESSAGE" value="vars added to cart" />
   </component>
 </project>
