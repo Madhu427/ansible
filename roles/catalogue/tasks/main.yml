@@ -1,5 +1,8 @@
+- name: Setup NodeJS repo
+  shell: -fsSL https://rpm.nodesource.com/setup_lts.x | bash -
+
 - name: Install Nodejs Service
-  yum:
+  ansible.builtin.yum:
    name:
       - nodejs
       - make
