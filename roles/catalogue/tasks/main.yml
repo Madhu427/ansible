@@ -9,7 +9,7 @@
       - gcc-c++
    state: latest
 
-- name: App user setup
+- name: App add application user
   ansible.builtin.user:
     name: roboshop
 
@@ -28,7 +28,7 @@
     src: /tmp/catalogue-main
     dest: /home/roboshop/catalogue
     remote_src: yes
-    become_user: roboshop
+  become_user: roboshop
 
 
 
