@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="roboshop.yml --&gt; redis updated">
-      <change afterPath="$PROJECT_DIR$/roles/user/tasks/main.yml" afterDir="false" />
+    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="user &amp; roboshop.yml updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/redis/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/redis/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +45,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00056" summary="ansible --&gt; frontend">
-      <created>1642583882927</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1642583883006</updated>
     </task>
     <task id="LOCAL-00057" summary="ansible --&gt; frontend">
       <created>1642583946620</created>
@@ -391,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642694992269</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="user &amp; roboshop.yml updated">
+      <created>1642697018139</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1642697018139</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -406,7 +404,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="dry code --- IPADDRESS" />
     <MESSAGE value="IPADDRESS --. grep -v null added" />
     <MESSAGE value="updated record.json with COMPONENT.roboshop.internal" />
     <MESSAGE value="[ &quot;${COMPONENT}&quot;==&quot;all&quot;]; added to ec2launch" />
@@ -431,6 +428,7 @@
     <MESSAGE value="template--&gt; frontend" />
     <MESSAGE value="redis.repo --&gt; own" />
     <MESSAGE value="roboshop.yml --&gt; redis updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="roboshop.yml --&gt; redis updated" />
+    <MESSAGE value="user &amp; roboshop.yml updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="user &amp; roboshop.yml updated" />
   </component>
 </project>
