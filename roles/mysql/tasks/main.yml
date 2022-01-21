@@ -36,8 +36,8 @@
 
 - name: Install MySQL server & Ansible MySQl modules
   ansible.builtin.yum:
-    name:
-    - mysql-community-server
+   name:
+     - mysql-community-server
   state: installed
 
 
