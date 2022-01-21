@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="shipping.conf" />
+    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="shipping.conf --&gt; import systemd service" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,20 +49,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00114" summary="user config recorrected">
-      <created>1642699638627</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1642699638627</updated>
-    </task>
-    <task id="LOCAL-00115" summary="user config recorrected">
-      <created>1642699952652</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1642699952652</updated>
     </task>
     <task id="LOCAL-00116" summary="user config recorrected">
       <created>1642700093205</created>
@@ -393,7 +379,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642773480928</updated>
     </task>
-    <option name="localTasksCounter" value="163" />
+    <task id="LOCAL-00163" summary="shipping.conf">
+      <created>1642773675461</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1642773675462</updated>
+    </task>
+    <task id="LOCAL-00164" summary="shipping.conf --&gt; import systemd service">
+      <created>1642773791384</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1642773791384</updated>
+    </task>
+    <option name="localTasksCounter" value="165" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -408,7 +408,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="dev implemented" />
     <MESSAGE value="-dev.roboshop.internal" />
     <MESSAGE value="removed become-user from update ip in catalogue" />
     <MESSAGE value="daemon_reload:" />
@@ -433,6 +432,7 @@
     <MESSAGE value="maven config &amp; app user setup" />
     <MESSAGE value="systemd.service --&gt; shiiping" />
     <MESSAGE value="shipping.conf" />
-    <option name="LAST_COMMIT_MESSAGE" value="shipping.conf" />
+    <MESSAGE value="shipping.conf --&gt; import systemd service" />
+    <option name="LAST_COMMIT_MESSAGE" value="shipping.conf --&gt; import systemd service" />
   </component>
 </project>
