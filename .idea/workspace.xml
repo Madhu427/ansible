@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="shipping.conf --&gt; import systemd service" />
+    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="shipping.conf --&gt; import systemd service">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,11 +35,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/roles/mysql/files" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/roles/common/tasks" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hp\IdeaProjects\ansible\roles\common\tasks" />
+      <recent name="C:\Users\hp\IdeaProjects\ansible\roles\common" />
       <recent name="C:\Users\hp\IdeaProjects\ansible\roles\mysql\files" />
     </key>
   </component>
@@ -49,20 +53,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00124" summary="cart conf &amp; roboshop.yml updated">
-      <created>1642704240778</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1642704240778</updated>
-    </task>
-    <task id="LOCAL-00125" summary="vars added to cart">
-      <created>1642704612806</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1642704612806</updated>
     </task>
     <task id="LOCAL-00126" summary="vars added to cart">
       <created>1642705213712</created>
@@ -393,7 +383,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642787480096</updated>
     </task>
-    <option name="localTasksCounter" value="173" />
+    <task id="LOCAL-00173" summary="shipping.conf --&gt; import systemd service">
+      <created>1642787628837</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1642787628837</updated>
+    </task>
+    <task id="LOCAL-00174" summary="shipping.conf --&gt; import systemd service">
+      <created>1642787796108</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1642787796108</updated>
+    </task>
+    <option name="localTasksCounter" value="175" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

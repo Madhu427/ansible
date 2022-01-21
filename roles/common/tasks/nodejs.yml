@@ -11,9 +11,7 @@
 
 
 - name: Add App user setup
-  ansible.builtin.import_role:
-    name: common
-    tasks_from: user
+   tasks_from: user.yml
 
 #- name: App add application user
 #  ansible.builtin.user:
