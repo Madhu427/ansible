@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="shipping.conf --&gt; import systemd service">
-      <change beforePath="$PROJECT_DIR$/roles/shipping/templates/systemd.service" beforeDir="false" afterPath="$PROJECT_DIR$/roles/shipping/templates/systemd.service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,20 +51,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00118" summary="user config recorrected">
-      <created>1642701235679</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1642701235679</updated>
-    </task>
-    <task id="LOCAL-00119" summary="node js code --&gt; dry">
-      <created>1642702266338</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1642702266338</updated>
     </task>
     <task id="LOCAL-00120" summary="var declared in user">
       <created>1642702630052</created>
@@ -395,7 +381,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642782956861</updated>
     </task>
-    <option name="localTasksCounter" value="167" />
+    <task id="LOCAL-00167" summary="shipping.conf --&gt; import systemd service">
+      <created>1642783326092</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1642783326092</updated>
+    </task>
+    <task id="LOCAL-00168" summary="shipping.conf --&gt; import systemd service">
+      <created>1642783599274</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1642783599274</updated>
+    </task>
+    <option name="localTasksCounter" value="169" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
