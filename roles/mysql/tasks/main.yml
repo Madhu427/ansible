@@ -46,7 +46,7 @@
     state: started
 
 - name: check if the new password is working
-  community.mysql.mysql_db.query:
+  community.mysql.mysql_query:
     query: "show databases"
     login_user: root
     login_password: "{{MYSQL_ROOT_PASSWORD}}"
