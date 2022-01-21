@@ -50,20 +50,6 @@
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
     </task>
-    <task id="LOCAL-00121" summary="var declared in user">
-      <created>1642703283667</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1642703283667</updated>
-    </task>
-    <task id="LOCAL-00122" summary="var declared in user">
-      <created>1642703427030</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1642703427030</updated>
-    </task>
     <task id="LOCAL-00123" summary="var declared in user">
       <created>1642703681664</created>
       <option name="number" value="00123" />
@@ -393,7 +379,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642786706874</updated>
     </task>
-    <option name="localTasksCounter" value="170" />
+    <task id="LOCAL-00170" summary="shipping.conf --&gt; import systemd service">
+      <created>1642786911479</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1642786911479</updated>
+    </task>
+    <task id="LOCAL-00171" summary="shipping.conf --&gt; import systemd service">
+      <created>1642787101344</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1642787101345</updated>
+    </task>
+    <option name="localTasksCounter" value="172" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

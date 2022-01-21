@@ -1,23 +1,9 @@
-- name: install maven
-  ansible.builtin.yum:
-    name: maven
-    state: installed
 
 - name: App user setup content
   ansible.builtin.import_role:
     name: common
-    tasks_from: user
+    tasks_from: maven
 
-- name: compile code
-  ansible.builtin.shell: mvn clean package && mv target/{{COMPONENT}}-1.0.jar {{COMPONENT}}.jar
-  args:
-   chdir: /home/roboshop/{{COMPONENT}}
-  become_user: roboshop
-
-- name: Import systemd service
-  ansible.builtin.import_role:
-    name: common
-    tasks_from: systemd
 
 
 
