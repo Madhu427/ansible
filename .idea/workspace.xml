@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="mysql.conf" />
+    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="mysql setup in roboshop.yml">
+      <change beforePath="$PROJECT_DIR$/roles/mysql/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/mysql/tasks/main.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,20 +51,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00080" summary="catalogue setup in roboshop.yml">
-      <created>1642615309648</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1642615309648</updated>
-    </task>
-    <task id="LOCAL-00081" summary="catalogue setup in roboshop.yml">
-      <created>1642615568007</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1642615568007</updated>
     </task>
     <task id="LOCAL-00082" summary="catalogue setup in roboshop.yml">
       <created>1642615588049</created>
@@ -393,7 +381,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642755366885</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="mysql setup in roboshop.yml">
+      <created>1642755582593</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1642755582593</updated>
+    </task>
+    <task id="LOCAL-00130" summary="mysql setup in roboshop.yml">
+      <created>1642755683843</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1642755683860</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -408,7 +410,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Copy the html web pages --&gt; front end." />
     <MESSAGE value=" front end f&amp;f config" />
     <MESSAGE value="mongodb config" />
     <MESSAGE value="adding vars to both mongod and frontend" />
@@ -433,6 +434,7 @@
     <MESSAGE value="vars added to cart" />
     <MESSAGE value="frontend--&gt; roboshop.conf updated" />
     <MESSAGE value="mysql.conf" />
-    <option name="LAST_COMMIT_MESSAGE" value="mysql.conf" />
+    <MESSAGE value="mysql setup in roboshop.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="mysql setup in roboshop.yml" />
   </component>
 </project>
