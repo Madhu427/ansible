@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="systemd.service --&gt; shiiping" />
+    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="shipping.conf" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,13 +49,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00113" summary="user config recorrected">
-      <created>1642699532787</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1642699532787</updated>
     </task>
     <task id="LOCAL-00114" summary="user config recorrected">
       <created>1642699638627</created>
@@ -393,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642772169569</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <task id="LOCAL-00162" summary="shipping.conf">
+      <created>1642773480927</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1642773480928</updated>
+    </task>
+    <option name="localTasksCounter" value="163" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -408,7 +408,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="npm--install nodesjs depedencies" />
     <MESSAGE value="dev implemented" />
     <MESSAGE value="-dev.roboshop.internal" />
     <MESSAGE value="removed become-user from update ip in catalogue" />
@@ -433,6 +432,7 @@
     <MESSAGE value="uninstall the validate password" />
     <MESSAGE value="maven config &amp; app user setup" />
     <MESSAGE value="systemd.service --&gt; shiiping" />
-    <option name="LAST_COMMIT_MESSAGE" value="systemd.service --&gt; shiiping" />
+    <MESSAGE value="shipping.conf" />
+    <option name="LAST_COMMIT_MESSAGE" value="shipping.conf" />
   </component>
 </project>
