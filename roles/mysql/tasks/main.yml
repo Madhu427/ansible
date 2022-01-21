@@ -39,7 +39,7 @@
     name:
     - mysql-community-server
     - MySQL-pytho
-    state: latest
+    state: installed
 
 - name: Start MySql Service
   ansible.builtin.systemd:
