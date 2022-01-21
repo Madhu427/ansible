@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="uninstall the validate password">
-      <change afterPath="$PROJECT_DIR$/roles/common/tasks/user.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roles/shipping/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/common/tasks/nodejs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/common/tasks/nodejs.yml" afterDir="false" />
-    </list>
+    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="maven config &amp; app user setup" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,20 +49,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00109" summary="user &amp; roboshop.yml updated">
-      <created>1642697808185</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1642697808185</updated>
-    </task>
-    <task id="LOCAL-00110" summary="user &amp; roboshop.yml updated">
-      <created>1642697887179</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1642697887180</updated>
     </task>
     <task id="LOCAL-00111" summary="user &amp; roboshop.yml updated">
       <created>1642698155929</created>
@@ -398,7 +379,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642769514829</updated>
     </task>
-    <option name="localTasksCounter" value="158" />
+    <task id="LOCAL-00158" summary="maven config &amp; app user setup">
+      <created>1642770539576</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1642770539576</updated>
+    </task>
+    <task id="LOCAL-00159" summary="maven config &amp; app user setup">
+      <created>1642771246869</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1642771246869</updated>
+    </task>
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -413,7 +408,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Setup NodeJS repo --&gt; shell" />
     <MESSAGE value="Setup NodeJS repo --&gt; shell forgot to added curl" />
     <MESSAGE value="npm--install nodesjs depedencies" />
     <MESSAGE value="dev implemented" />
@@ -438,6 +432,7 @@
     <MESSAGE value="community.mysql.mysql_query:" />
     <MESSAGE value="MySQL-python added" />
     <MESSAGE value="uninstall the validate password" />
-    <option name="LAST_COMMIT_MESSAGE" value="uninstall the validate password" />
+    <MESSAGE value="maven config &amp; app user setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="maven config &amp; app user setup" />
   </component>
 </project>
