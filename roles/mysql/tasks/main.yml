@@ -82,5 +82,9 @@
   ansible.builtin.shell: echo 'show plugins;' | mysql -uroot -p"{{MYSQL_ROOT_PASSWORD}}"
   register: out
 
-#- name: uninstall the validate password
-#  ansible.builtin.shell: echo "uninstall plugin validate_password" | mysql -uroot -p"{{MYSQL_ROOT_PASSWORD}}"
+- name: uninstall the validate password
+  community.mysql.mysql_query:
+    query: "uninstall plugin validate_password"
+    login_user: root
+    login_password: "{{MYSQL_ROOT_PASSWORD}}"
+  when: out.rc | int = 0
