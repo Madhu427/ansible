@@ -34,7 +34,7 @@
     src: mysql.repo
     dest: /etc/yum.repos.d/mysql.repo
 
-- name: Install MySQL server
+- name: Install MySQL server & Ansible MySQl modules
   ansible.builtin.yum:
     name:
     - mysql-community-server
