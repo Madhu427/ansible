@@ -58,6 +58,7 @@
 
 - name: check for show plugins
   ansible.builtin.shell: echo 'show plugins;' | mysql -uroot -p"{{MYSQL_ROOT_PASSWORD}}"
+  ignore_errors: true
   register: out
 
 - name: uninstall the validate password
@@ -73,3 +74,11 @@
   ansible.builtin.import_role:
    name: common
    tasks_from: download
+
+- name: load schema
+  community.mysql.mysql_db:
+    state: import
+    name: all
+    target: /tmp/mysql-main/shipping.sql
+    login_user: root
+    login_password: "{{MYSQL_ROOT_PASSWORD}}"
