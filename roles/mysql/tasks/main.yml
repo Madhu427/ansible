@@ -69,8 +69,8 @@
 
     - name: Change the My sql default root password
       ansible.builtin.template:
-      src: root-pass-reset.sql
-      dest: /tmp/root-pass-reset.sql
+        src: root-pass-reset.sql
+        dest: /tmp/root-pass-reset.sql
 
 
     - name: Change the default password
