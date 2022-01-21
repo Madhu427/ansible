@@ -50,13 +50,6 @@
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
     </task>
-    <task id="LOCAL-00094" summary="-dev.roboshop.internal">
-      <created>1642680799502</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1642680799502</updated>
-    </task>
     <task id="LOCAL-00095" summary="-dev.roboshop.internal">
       <created>1642681203856</created>
       <option name="number" value="00095" />
@@ -393,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642762216027</updated>
     </task>
-    <option name="localTasksCounter" value="143" />
+    <task id="LOCAL-00143" summary="MySQL-python added">
+      <created>1642764145263</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1642764145263</updated>
+    </task>
+    <option name="localTasksCounter" value="144" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

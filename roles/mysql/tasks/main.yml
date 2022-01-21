@@ -40,6 +40,7 @@
     - mysql-community-server
     - MySQL-pytho
     state: installed
+    ignore_errors: yes
 
 - name: Start MySql Service
   ansible.builtin.systemd:
