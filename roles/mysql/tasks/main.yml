@@ -38,9 +38,8 @@
   ansible.builtin.yum:
     name:
     - mysql-community-server
-    - MySQL-pytho
-    state: installed
-    ignore_errors: yes
+  state: installed
+
 
 - name: Start MySql Service
   ansible.builtin.systemd:
