@@ -50,13 +50,6 @@
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
     </task>
-    <task id="LOCAL-00123" summary="var declared in user">
-      <created>1642703681664</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1642703681664</updated>
-    </task>
     <task id="LOCAL-00124" summary="cart conf &amp; roboshop.yml updated">
       <created>1642704240778</created>
       <option name="number" value="00124" />
@@ -393,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642787101345</updated>
     </task>
-    <option name="localTasksCounter" value="172" />
+    <task id="LOCAL-00172" summary="shipping.conf --&gt; import systemd service">
+      <created>1642787480096</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1642787480096</updated>
+    </task>
+    <option name="localTasksCounter" value="173" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
