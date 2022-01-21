@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="shipping.conf --&gt; import systemd service" />
+    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="shipping.conf --&gt; import systemd service">
+      <change beforePath="$PROJECT_DIR$/roles/common/tasks/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/common/tasks/maven.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,20 +53,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00127" summary="frontend--&gt; roboshop.conf updated">
-      <created>1642705732998</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
-      <option name="project" value="LOCAL" />
-      <updated>1642705732999</updated>
-    </task>
-    <task id="LOCAL-00128" summary="mysql.conf">
-      <created>1642755366883</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1642755366885</updated>
     </task>
     <task id="LOCAL-00129" summary="mysql setup in roboshop.yml">
       <created>1642755582593</created>
@@ -395,7 +383,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642789733606</updated>
     </task>
-    <option name="localTasksCounter" value="176" />
+    <task id="LOCAL-00176" summary="shipping.conf --&gt; import systemd service">
+      <created>1642789923155</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1642789923155</updated>
+    </task>
+    <task id="LOCAL-00177" summary="shipping.conf --&gt; import systemd service">
+      <created>1642789977977</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1642789977977</updated>
+    </task>
+    <option name="localTasksCounter" value="178" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
