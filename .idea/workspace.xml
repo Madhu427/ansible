@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="uninstall the validate password">
       <change beforePath="$PROJECT_DIR$/roles/mysql/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/mysql/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/mysql/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/mysql/vars/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,20 +52,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00104" summary="roboshop.yml --&gt; redis updated">
-      <created>1642694992269</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1642694992269</updated>
-    </task>
-    <task id="LOCAL-00105" summary="user &amp; roboshop.yml updated">
-      <created>1642697018139</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1642697018139</updated>
     </task>
     <task id="LOCAL-00106" summary="user &amp; roboshop.yml updated">
       <created>1642697506899</created>
@@ -395,7 +382,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642767848342</updated>
     </task>
-    <option name="localTasksCounter" value="153" />
+    <task id="LOCAL-00153" summary="uninstall the validate password">
+      <created>1642768001601</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1642768001602</updated>
+    </task>
+    <task id="LOCAL-00154" summary="uninstall the validate password">
+      <created>1642768045281</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1642768045281</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
