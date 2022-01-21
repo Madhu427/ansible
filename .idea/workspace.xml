@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="uninstall the validate password">
+      <change afterPath="$PROJECT_DIR$/roles/common/tasks/user.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roles/shipping/tasks/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/mysql/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/mysql/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/common/tasks/nodejs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/common/tasks/nodejs.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +54,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00108" summary="user &amp; roboshop.yml updated">
-      <created>1642697736491</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1642697736491</updated>
     </task>
     <task id="LOCAL-00109" summary="user &amp; roboshop.yml updated">
       <created>1642697808185</created>
@@ -396,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642769022280</updated>
     </task>
-    <option name="localTasksCounter" value="157" />
+    <task id="LOCAL-00157" summary="uninstall the validate password">
+      <created>1642769514829</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1642769514829</updated>
+    </task>
+    <option name="localTasksCounter" value="158" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

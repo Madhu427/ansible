@@ -1,0 +1,9 @@
+- name: install maven
+  ansible.builtin.yum:
+    name: maven
+    state: installed
+
+- name: App user setup content
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: user

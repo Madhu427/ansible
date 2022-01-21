@@ -9,26 +9,32 @@
       - gcc-c++
     state: latest
 
-- name: App add application user
-  ansible.builtin.user:
-    name: roboshop
 
-- name: Download and unzip the {{COMPONENT}} content
+- name: Add App user setup
   ansible.builtin.import_role:
     name: common
-    tasks_from: download
+    tasks_from: user
 
-- name: Remove old app content
-  ansible.builtin.file:
-    path: /home/roboshop/{{COMPONENT}}
-    state: absent
-
-- name: Copy App content
-  ansible.builtin.copy:
-    src: /tmp/{{COMPONENT}}-main/
-    dest: /home/roboshop/{{COMPONENT}}/
-    remote_src: yes
-  become_user: roboshop
+#- name: App add application user
+#  ansible.builtin.user:
+#    name: roboshop
+#
+#- name: Download and unzip the {{COMPONENT}} content
+#  ansible.builtin.import_role:
+#    name: common
+#    tasks_from: download
+#
+#- name: Remove old app content
+#  ansible.builtin.file:
+#    path: /home/roboshop/{{COMPONENT}}
+#    state: absent
+#
+#- name: Copy App content
+#  ansible.builtin.copy:
+#    src: /tmp/{{COMPONENT}}-main/
+#    dest: /home/roboshop/{{COMPONENT}}/
+#    remote_src: yes
+#  become_user: roboshop
 
 - name: Install nodejs dependencies
   community.general.npm:
