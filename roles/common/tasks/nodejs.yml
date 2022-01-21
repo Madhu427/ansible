@@ -11,7 +11,7 @@
 
 
 - name: Add App user setup
-   import_tasks: app-user-setup.yml
+  import_tasks: app-user-setup.yml
 
 #- name: App add application user
 #  ansible.builtin.user:
