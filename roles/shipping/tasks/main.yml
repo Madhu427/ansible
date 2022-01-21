@@ -7,3 +7,11 @@
   ansible.builtin.import_role:
     name: common
     tasks_from: user
+
+- name: compile code
+  ansible.builtin.shell: mvn clean package && mv target/{{COMPONENT}}-1.0.jar {{COMPONENT}}.jar
+   args:
+     chdir: /home/roboshop/{{COMPONENT}}
+  become_user: roboshop
+
+

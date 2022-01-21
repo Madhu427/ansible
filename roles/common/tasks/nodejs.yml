@@ -47,9 +47,14 @@
     dest: /etc/systemd/system/{{COMPONENT}}.service
 
 
-- name: Start {{COMPONENT}} service
-  ansible.builtin.systemd:
-    name: "{{COMPONENT}}"
-    daemon_reload: yes
-    state: restarted
-    enabled: yes
+#- name: Start {{COMPONENT}} service
+#  ansible.builtin.systemd:
+#    name: "{{COMPONENT}}"
+#    daemon_reload: yes
+#    state: restarted
+#    enabled: yes
+
+- name: Import systemd service
+  ansible.builtin.import_role:
+   name: common
+   tasks_from: systemd

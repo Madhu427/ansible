@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="maven config &amp; app user setup">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="systemd.service --&gt; shiiping" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,13 +49,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00112" summary="user &amp; roboshop.yml updated">
-      <created>1642698389011</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1642698389011</updated>
     </task>
     <task id="LOCAL-00113" summary="user config recorrected">
       <created>1642699532787</created>
@@ -395,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642771645156</updated>
     </task>
-    <option name="localTasksCounter" value="161" />
+    <task id="LOCAL-00161" summary="systemd.service --&gt; shiiping">
+      <created>1642772169569</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1642772169569</updated>
+    </task>
+    <option name="localTasksCounter" value="162" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -410,7 +408,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Setup NodeJS repo --&gt; shell forgot to added curl" />
     <MESSAGE value="npm--install nodesjs depedencies" />
     <MESSAGE value="dev implemented" />
     <MESSAGE value="-dev.roboshop.internal" />
@@ -435,6 +432,7 @@
     <MESSAGE value="MySQL-python added" />
     <MESSAGE value="uninstall the validate password" />
     <MESSAGE value="maven config &amp; app user setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="maven config &amp; app user setup" />
+    <MESSAGE value="systemd.service --&gt; shiiping" />
+    <option name="LAST_COMMIT_MESSAGE" value="systemd.service --&gt; shiiping" />
   </component>
 </project>
