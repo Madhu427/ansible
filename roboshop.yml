@@ -40,6 +40,13 @@
   roles:
     - cart
 
+- name: MySQL Setup
+  hosts: MYSQL
+  become: yes
+  tags: MYSQL
+  roles:
+    - mysql
+
 
 
 
