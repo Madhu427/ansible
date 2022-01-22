@@ -19,4 +19,4 @@
 
 - name: check the default uid & gid
   debug:
-    msg: {{app_user_info}}
+    msg: "{{app_user_info}}"
