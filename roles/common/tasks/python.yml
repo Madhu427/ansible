@@ -8,9 +8,7 @@
 
 
 - name: Add robo shop user
-  ansible.builtin.import_role:
-    name: common
-    tasks_from: app-user-setup
+  import_tasks: app-user-setup.yml
 
 - name: Install python dependencies
   ansible.builtin.pip:
