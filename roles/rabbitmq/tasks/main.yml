@@ -9,6 +9,7 @@
   state: present
 
 - name: Start Rabbit Mq service
-  ansible.builtin.import_role:
-   name: common
-   tasks_from: systemd
+  ansible.builtin.systemd:
+    name: rabbitmq-server
+    state: started
+    enabled: yes

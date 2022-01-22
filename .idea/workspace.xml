@@ -52,34 +52,6 @@
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
     </task>
-    <task id="LOCAL-00144" summary="MySQL-python added">
-      <created>1642764276880</created>
-      <option name="number" value="00144" />
-      <option name="presentableId" value="LOCAL-00144" />
-      <option name="project" value="LOCAL" />
-      <updated>1642764276880</updated>
-    </task>
-    <task id="LOCAL-00145" summary="MySQL-python added">
-      <created>1642764335694</created>
-      <option name="number" value="00145" />
-      <option name="presentableId" value="LOCAL-00145" />
-      <option name="project" value="LOCAL" />
-      <updated>1642764335694</updated>
-    </task>
-    <task id="LOCAL-00146" summary="MySQL-python added">
-      <created>1642764403502</created>
-      <option name="number" value="00146" />
-      <option name="presentableId" value="LOCAL-00146" />
-      <option name="project" value="LOCAL" />
-      <updated>1642764403502</updated>
-    </task>
-    <task id="LOCAL-00147" summary="MySQL-python added">
-      <created>1642764522723</created>
-      <option name="number" value="00147" />
-      <option name="presentableId" value="LOCAL-00147" />
-      <option name="project" value="LOCAL" />
-      <updated>1642764522723</updated>
-    </task>
     <task id="LOCAL-00148" summary="MySQL-python added">
       <created>1642764601830</created>
       <option name="number" value="00148" />
@@ -395,7 +367,35 @@
       <option name="project" value="LOCAL" />
       <updated>1642831156007</updated>
     </task>
-    <option name="localTasksCounter" value="193" />
+    <task id="LOCAL-00193" summary="REDIS_HOST updated in cart service">
+      <created>1642831235780</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1642831235780</updated>
+    </task>
+    <task id="LOCAL-00194" summary="REDIS_HOST updated in cart service">
+      <created>1642831293899</created>
+      <option name="number" value="00194" />
+      <option name="presentableId" value="LOCAL-00194" />
+      <option name="project" value="LOCAL" />
+      <updated>1642831293899</updated>
+    </task>
+    <task id="LOCAL-00195" summary="REDIS_HOST updated in cart service">
+      <created>1642831354159</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1642831354159</updated>
+    </task>
+    <task id="LOCAL-00196" summary="REDIS_HOST updated in cart service">
+      <created>1642831476168</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
+      <option name="project" value="LOCAL" />
+      <updated>1642831476168</updated>
+    </task>
+    <option name="localTasksCounter" value="197" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
