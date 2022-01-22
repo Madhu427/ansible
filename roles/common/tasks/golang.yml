@@ -11,5 +11,10 @@
   args:
     chdir: /home/roboshop/{{COMPONENT}}
 
-#- name: setup service and start service
-#  import_tasks: systemd.yml
+- name: Update Ip address of rabbit mq
+  ansible.builtin.template:
+    src: systemd.service
+    dest: /etc/systemd/system/{{COMPONENT}}.service
+
+- name: setup service and start service
+  import_tasks: systemd.yml

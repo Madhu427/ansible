@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="payment--&gt;systemd service" />
+    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="payment--&gt;systemd service">
+      <change beforePath="$PROJECT_DIR$/roles/common/tasks/golang.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/common/tasks/golang.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,13 +53,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00186" summary="shipping.conf --&gt; import systemd service">
-      <created>1642826228965</created>
-      <option name="number" value="00186" />
-      <option name="presentableId" value="LOCAL-00186" />
-      <option name="project" value="LOCAL" />
-      <updated>1642826228965</updated>
     </task>
     <task id="LOCAL-00187" summary="CART_ENDPOINT=cart-{{ENV}}.roboshop.internal:8080">
       <created>1642827411247</created>
@@ -395,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642851563067</updated>
     </task>
-    <option name="localTasksCounter" value="235" />
+    <task id="LOCAL-00235" summary="payment--&gt;systemd service">
+      <created>1642851920639</created>
+      <option name="number" value="00235" />
+      <option name="presentableId" value="LOCAL-00235" />
+      <option name="project" value="LOCAL" />
+      <updated>1642851920639</updated>
+    </task>
+    <option name="localTasksCounter" value="236" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
