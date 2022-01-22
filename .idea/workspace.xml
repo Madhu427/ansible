@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="community.rabbitmq.rabbitmq_user--&gt; added">
-      <change afterPath="$PROJECT_DIR$/roles/payment/tasks/main.yml" afterDir="false" />
-    </list>
+    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="payment--&gt; Install python dependencies" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,20 +51,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00153" summary="uninstall the validate password">
-      <created>1642768001601</created>
-      <option name="number" value="00153" />
-      <option name="presentableId" value="LOCAL-00153" />
-      <option name="project" value="LOCAL" />
-      <updated>1642768001602</updated>
-    </task>
-    <task id="LOCAL-00154" summary="uninstall the validate password">
-      <created>1642768045281</created>
-      <option name="number" value="00154" />
-      <option name="presentableId" value="LOCAL-00154" />
-      <option name="project" value="LOCAL" />
-      <updated>1642768045281</updated>
     </task>
     <task id="LOCAL-00155" summary="uninstall the validate password">
       <created>1642768609105</created>
@@ -397,7 +381,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642833344479</updated>
     </task>
-    <option name="localTasksCounter" value="202" />
+    <task id="LOCAL-00202" summary="payment--&gt; Install python dependencies">
+      <created>1642833669567</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1642833669567</updated>
+    </task>
+    <task id="LOCAL-00203" summary="payment--&gt; Install python dependencies">
+      <created>1642833744288</created>
+      <option name="number" value="00203" />
+      <option name="presentableId" value="LOCAL-00203" />
+      <option name="project" value="LOCAL" />
+      <updated>1642833744288</updated>
+    </task>
+    <option name="localTasksCounter" value="204" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -412,7 +410,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adding tags to roboshop.yml" />
     <MESSAGE value="template--&gt; frontend" />
     <MESSAGE value="redis.repo --&gt; own" />
     <MESSAGE value="roboshop.yml --&gt; redis updated" />
@@ -437,6 +434,7 @@
     <MESSAGE value="CART_ENDPOINT=cart-{{ENV}}.roboshop.internal:8080" />
     <MESSAGE value="REDIS_HOST updated in cart service" />
     <MESSAGE value="community.rabbitmq.rabbitmq_user--&gt; added" />
-    <option name="LAST_COMMIT_MESSAGE" value="community.rabbitmq.rabbitmq_user--&gt; added" />
+    <MESSAGE value="payment--&gt; Install python dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="payment--&gt; Install python dependencies" />
   </component>
 </project>

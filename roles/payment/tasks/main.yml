@@ -5,3 +5,9 @@
       - gcc
       - python3-devel
     state: installed
+
+
+- name: Add robo shop user
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: app-user-setup
