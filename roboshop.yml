@@ -53,6 +53,13 @@
   tags: SHIPPING
   roles:
     - shipping
+    -
+- name: Rabbit-mq Setup
+  hosts: RABBITMQ
+  become: yes
+  tags: RABBITMQ
+  roles:
+    - rabbitmq
 
 
 
