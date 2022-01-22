@@ -1,4 +1,4 @@
-- name: setup yim repositories for Rabbit MQ
+- name: setup yum repositories for Rabbit MQ
   ansible.builtin.shell: curl -s https://packagecloud.io/install/repositories/rabbitmq/rabbitmq-server/script.rpm.sh | sudo bash
 
 - name: Install Rabbit MQ and Erlang dependencies
