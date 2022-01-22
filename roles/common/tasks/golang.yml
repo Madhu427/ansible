@@ -4,7 +4,7 @@
     state: installed
 
 - name: Application user setup and download the files
-  import_tasks: app--user-setup.yml
+  import_tasks: app-user-setup.yml
 
 - name: Install App dependencies
   ansible.builtin.shell: go mod init {{COMPONENT}} && go get go build
