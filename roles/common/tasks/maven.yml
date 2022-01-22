@@ -12,6 +12,11 @@
     chdir: /home/roboshop/{{COMPONENT}}
   become_user: roboshop
 
+- name: Update Ip address of shipping & db server
+  ansible.builtin.template:
+    src: systemd.service
+    dest: /etc/systemd/system/{{COMPONENT}}.service
+
 - name: Import systemd service
   import_tasks: systemd.yml
 
