@@ -1,5 +1,5 @@
-- name: Install GoLang dependemcies
-  ansible.builtin.golang:
+- name: Install GoLang dependenies
+  ansible.builtin.yum:
     name: golang
     state: installed
 
