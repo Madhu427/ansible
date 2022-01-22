@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="payment--&gt;uid &amp; gid replaced --&gt; corrected /home/roboshop/payment/payment.ini">
+    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="payment--&gt;Update Ip address of cart, rabbit mq &amp;user">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/payment/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/payment/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +53,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00169" summary="shipping.conf --&gt; import systemd service">
-      <created>1642786706874</created>
-      <option name="number" value="00169" />
-      <option name="presentableId" value="LOCAL-00169" />
-      <option name="project" value="LOCAL" />
-      <updated>1642786706874</updated>
     </task>
     <task id="LOCAL-00170" summary="shipping.conf --&gt; import systemd service">
       <created>1642786911479</created>
@@ -398,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642842366742</updated>
     </task>
-    <option name="localTasksCounter" value="218" />
+    <task id="LOCAL-00218" summary="payment--&gt;Update Ip address of cart, rabbit mq &amp;user">
+      <created>1642843006462</created>
+      <option name="number" value="00218" />
+      <option name="presentableId" value="LOCAL-00218" />
+      <option name="project" value="LOCAL" />
+      <updated>1642843006462</updated>
+    </task>
+    <option name="localTasksCounter" value="219" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -413,7 +412,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="node js code --&gt; dry" />
     <MESSAGE value="var declared in user" />
     <MESSAGE value="cart conf &amp; roboshop.yml updated" />
     <MESSAGE value="vars added to cart" />
@@ -438,6 +436,7 @@
     <MESSAGE value="payment--&gt;systemd.service update" />
     <MESSAGE value="payment--&gt;uid &amp; gid replaced" />
     <MESSAGE value="payment--&gt;uid &amp; gid replaced --&gt; corrected /home/roboshop/payment/payment.ini" />
-    <option name="LAST_COMMIT_MESSAGE" value="payment--&gt;uid &amp; gid replaced --&gt; corrected /home/roboshop/payment/payment.ini" />
+    <MESSAGE value="payment--&gt;Update Ip address of cart, rabbit mq &amp;user" />
+    <option name="LAST_COMMIT_MESSAGE" value="payment--&gt;Update Ip address of cart, rabbit mq &amp;user" />
   </component>
 </project>

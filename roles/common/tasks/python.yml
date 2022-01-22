@@ -1,0 +1,43 @@
+- name: Install python dependencies
+  ansible.builtin.yum:
+    name:
+      - python36
+      - gcc
+      - python3-devel
+    state: installed
+
+
+- name: Add robo shop user
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: app-user-setup
+
+- name: Install python dependencies
+  ansible.builtin.pip:
+    requirements: /home/roboshop/payment/requirements.txt
+    executable: pip3
+
+#- name: check the default uid & gid
+#  debug:
+#    msg: "{{app_user_info}}"
+
+- name: replace uid
+  lineinfile:
+    path: /home/roboshop/payment/payment.ini
+    regexp: '^uid'
+    line: uid = {{app_user_info.uid}}
+
+- name: replace gid
+  lineinfile:
+    path: /home/roboshop/payment/payment.ini
+    regexp: '^gid'
+    line: uid = {{app_user_info.group}}
+
+- name: Update Ip address of cart, rabbit mq &user
+  ansible.builtin.template:
+    src: systemd.service
+    dest: /etc/systemd/system/{{COMPONENT}}.service
+
+
+- name: Start payment service
+    tasks_from: systemd
