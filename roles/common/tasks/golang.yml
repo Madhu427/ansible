@@ -11,5 +11,5 @@
   args:
     chdir: /home/roboshop/{{COMPONENT}}
 
-- name: setup service and start service
-  import_tasks: systemd.yml
+#- name: setup service and start service
+#  import_tasks: systemd.yml
