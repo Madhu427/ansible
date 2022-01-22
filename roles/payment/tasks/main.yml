@@ -17,9 +17,9 @@
     requirements: /home/roboshop/payment/requirements.txt
     executable: pip3
 
-- name: check the default uid & gid
-  debug:
-    msg: "{{app_user_info}}"
+#- name: check the default uid & gid
+#  debug:
+#    msg: "{{app_user_info}}"
 
 - name: replace uid
   lineinfile:

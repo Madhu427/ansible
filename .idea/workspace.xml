@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="payment--&gt;systemd.service update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/payment/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/payment/tasks/main.yml" afterDir="false" />
-    </list>
+    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="payment--&gt;uid &amp; gid replaced --&gt; corrected /home/roboshop/payment/payment.ini" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,27 +51,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00165" summary="shipping.conf --&gt; import systemd service">
-      <created>1642782614244</created>
-      <option name="number" value="00165" />
-      <option name="presentableId" value="LOCAL-00165" />
-      <option name="project" value="LOCAL" />
-      <updated>1642782614244</updated>
-    </task>
-    <task id="LOCAL-00166" summary="shipping.conf --&gt; import systemd service">
-      <created>1642782956861</created>
-      <option name="number" value="00166" />
-      <option name="presentableId" value="LOCAL-00166" />
-      <option name="project" value="LOCAL" />
-      <updated>1642782956861</updated>
-    </task>
-    <task id="LOCAL-00167" summary="shipping.conf --&gt; import systemd service">
-      <created>1642783326092</created>
-      <option name="number" value="00167" />
-      <option name="presentableId" value="LOCAL-00167" />
-      <option name="project" value="LOCAL" />
-      <updated>1642783326092</updated>
     </task>
     <task id="LOCAL-00168" summary="shipping.conf --&gt; import systemd service">
       <created>1642783599274</created>
@@ -398,7 +374,28 @@
       <option name="project" value="LOCAL" />
       <updated>1642841374845</updated>
     </task>
-    <option name="localTasksCounter" value="214" />
+    <task id="LOCAL-00214" summary="payment--&gt;uid &amp; gid replaced">
+      <created>1642842114350</created>
+      <option name="number" value="00214" />
+      <option name="presentableId" value="LOCAL-00214" />
+      <option name="project" value="LOCAL" />
+      <updated>1642842114350</updated>
+    </task>
+    <task id="LOCAL-00215" summary="payment--&gt;uid &amp; gid replaced">
+      <created>1642842206626</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
+      <option name="project" value="LOCAL" />
+      <updated>1642842206626</updated>
+    </task>
+    <task id="LOCAL-00216" summary="payment--&gt;uid &amp; gid replaced --&gt; corrected /home/roboshop/payment/payment.ini">
+      <created>1642842305774</created>
+      <option name="number" value="00216" />
+      <option name="presentableId" value="LOCAL-00216" />
+      <option name="project" value="LOCAL" />
+      <updated>1642842305774</updated>
+    </task>
+    <option name="localTasksCounter" value="217" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -413,8 +410,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="user &amp; roboshop.yml updated" />
-    <MESSAGE value="user config recorrected" />
     <MESSAGE value="node js code --&gt; dry" />
     <MESSAGE value="var declared in user" />
     <MESSAGE value="cart conf &amp; roboshop.yml updated" />
@@ -438,6 +433,8 @@
     <MESSAGE value="payment--&gt; app-user setp" />
     <MESSAGE value="payment--&gt;Install python dependencies" />
     <MESSAGE value="payment--&gt;systemd.service update" />
-    <option name="LAST_COMMIT_MESSAGE" value="payment--&gt;systemd.service update" />
+    <MESSAGE value="payment--&gt;uid &amp; gid replaced" />
+    <MESSAGE value="payment--&gt;uid &amp; gid replaced --&gt; corrected /home/roboshop/payment/payment.ini" />
+    <option name="LAST_COMMIT_MESSAGE" value="payment--&gt;uid &amp; gid replaced --&gt; corrected /home/roboshop/payment/payment.ini" />
   </component>
 </project>
