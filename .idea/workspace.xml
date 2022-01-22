@@ -52,34 +52,6 @@
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
     </task>
-    <task id="LOCAL-00177" summary="shipping.conf --&gt; import systemd service">
-      <created>1642789977977</created>
-      <option name="number" value="00177" />
-      <option name="presentableId" value="LOCAL-00177" />
-      <option name="project" value="LOCAL" />
-      <updated>1642789977977</updated>
-    </task>
-    <task id="LOCAL-00178" summary="shipping.conf --&gt; import systemd service">
-      <created>1642790094228</created>
-      <option name="number" value="00178" />
-      <option name="presentableId" value="LOCAL-00178" />
-      <option name="project" value="LOCAL" />
-      <updated>1642790094228</updated>
-    </task>
-    <task id="LOCAL-00179" summary="shipping.conf --&gt; import systemd service">
-      <created>1642790182542</created>
-      <option name="number" value="00179" />
-      <option name="presentableId" value="LOCAL-00179" />
-      <option name="project" value="LOCAL" />
-      <updated>1642790182542</updated>
-    </task>
-    <task id="LOCAL-00180" summary="shipping.conf --&gt; import systemd service">
-      <created>1642790225467</created>
-      <option name="number" value="00180" />
-      <option name="presentableId" value="LOCAL-00180" />
-      <option name="project" value="LOCAL" />
-      <updated>1642790225467</updated>
-    </task>
     <task id="LOCAL-00181" summary="shipping.conf --&gt; import systemd service">
       <created>1642790386706</created>
       <option name="number" value="00181" />
@@ -395,7 +367,35 @@
       <option name="project" value="LOCAL" />
       <updated>1642849825246</updated>
     </task>
-    <option name="localTasksCounter" value="226" />
+    <task id="LOCAL-00226" summary="payment--&gt;DRY code">
+      <created>1642849986817</created>
+      <option name="number" value="00226" />
+      <option name="presentableId" value="LOCAL-00226" />
+      <option name="project" value="LOCAL" />
+      <updated>1642849986817</updated>
+    </task>
+    <task id="LOCAL-00227" summary="payment--&gt;DRY code">
+      <created>1642850118636</created>
+      <option name="number" value="00227" />
+      <option name="presentableId" value="LOCAL-00227" />
+      <option name="project" value="LOCAL" />
+      <updated>1642850118636</updated>
+    </task>
+    <task id="LOCAL-00228" summary="payment--&gt;DRY code">
+      <created>1642850155165</created>
+      <option name="number" value="00228" />
+      <option name="presentableId" value="LOCAL-00228" />
+      <option name="project" value="LOCAL" />
+      <updated>1642850155165</updated>
+    </task>
+    <task id="LOCAL-00229" summary="payment--&gt;DRY code">
+      <created>1642850172532</created>
+      <option name="number" value="00229" />
+      <option name="presentableId" value="LOCAL-00229" />
+      <option name="project" value="LOCAL" />
+      <updated>1642850172532</updated>
+    </task>
+    <option name="localTasksCounter" value="230" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
