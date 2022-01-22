@@ -20,3 +20,15 @@
 - name: check the default uid & gid
   debug:
     msg: "{{app_user_info}}"
+
+- name: replace uid
+  lineinfile:
+    path: /etc/roboshop/payment/payment.ini
+    regexp: '^uid'
+    line: uid = {{app_user_info.uid}}
+
+- name: replace gid
+  lineinfile:
+    path: /etc/roboshop/payment/payment.ini
+    regexp: '^uid'
+    line: uid = {{app_user_info.group}}
