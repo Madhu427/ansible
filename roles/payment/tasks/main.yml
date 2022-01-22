@@ -7,12 +7,12 @@
     state: installed
 
 
-- name: Add robo shop user
-  ansible.builtin.import_role:
-    name: common
-    tasks_from: app-user-setup
-
-- name: Install python dependencies
-  ansible.builtin.pip:
-    requirements: /home/roboshop/payment/requirements.txt
-    executable: pip3
+#- name: Add robo shop user
+#  ansible.builtin.import_role:
+#    name: common
+#    tasks_from: app-user-setup
+#
+#- name: Install python dependencies
+#  ansible.builtin.pip:
+#    requirements: /home/roboshop/payment/requirements.txt
+#    executable: pip3
