@@ -23,12 +23,12 @@
 
 - name: replace uid
   lineinfile:
-    path: /etc/roboshop/payment/payment.ini
+    path: /home/roboshop/payment/payment.ini
     regexp: '^uid'
     line: uid = {{app_user_info.uid}}
 
 - name: replace gid
   lineinfile:
-    path: /etc/roboshop/payment/payment.ini
+    path: /home/roboshop/payment/payment.ini
     regexp: '^gid'
     line: uid = {{app_user_info.group}}
