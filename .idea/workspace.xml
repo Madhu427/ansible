@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="REDIS_HOST updated in cart service">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/rabbitmq/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/rabbitmq/tasks/main.yml" afterDir="false" />
-    </list>
+    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="community.rabbitmq.rabbitmq_user--&gt; added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,13 +51,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00151" summary="MySQL-python added">
-      <created>1642767547527</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
-      <option name="project" value="LOCAL" />
-      <updated>1642767547527</updated>
     </task>
     <task id="LOCAL-00152" summary="uninstall the validate password">
       <created>1642767848342</created>
@@ -398,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642831735866</updated>
     </task>
-    <option name="localTasksCounter" value="200" />
+    <task id="LOCAL-00200" summary="community.rabbitmq.rabbitmq_user--&gt; added">
+      <created>1642833040738</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1642833040738</updated>
+    </task>
+    <option name="localTasksCounter" value="201" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -413,7 +410,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="daemon_reload:" />
     <MESSAGE value="adding tags to roboshop.yml" />
     <MESSAGE value="template--&gt; frontend" />
     <MESSAGE value="redis.repo --&gt; own" />
@@ -438,6 +434,7 @@
     <MESSAGE value="shipping.conf --&gt; import systemd service" />
     <MESSAGE value="CART_ENDPOINT=cart-{{ENV}}.roboshop.internal:8080" />
     <MESSAGE value="REDIS_HOST updated in cart service" />
-    <option name="LAST_COMMIT_MESSAGE" value="REDIS_HOST updated in cart service" />
+    <MESSAGE value="community.rabbitmq.rabbitmq_user--&gt; added" />
+    <option name="LAST_COMMIT_MESSAGE" value="community.rabbitmq.rabbitmq_user--&gt; added" />
   </component>
 </project>
