@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="payment--&gt; Install python dependencies" />
+    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="payment--&gt; app-user setp">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/payment/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/payment/tasks/main.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,13 +54,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00155" summary="uninstall the validate password">
-      <created>1642768609105</created>
-      <option name="number" value="00155" />
-      <option name="presentableId" value="LOCAL-00155" />
-      <option name="project" value="LOCAL" />
-      <updated>1642768609105</updated>
     </task>
     <task id="LOCAL-00156" summary="uninstall the validate password">
       <created>1642769022280</created>
@@ -395,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642833744288</updated>
     </task>
-    <option name="localTasksCounter" value="204" />
+    <task id="LOCAL-00204" summary="payment--&gt; app-user setp">
+      <created>1642834525800</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1642834525800</updated>
+    </task>
+    <option name="localTasksCounter" value="205" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -410,7 +413,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="template--&gt; frontend" />
     <MESSAGE value="redis.repo --&gt; own" />
     <MESSAGE value="roboshop.yml --&gt; redis updated" />
     <MESSAGE value="user &amp; roboshop.yml updated" />
@@ -435,6 +437,7 @@
     <MESSAGE value="REDIS_HOST updated in cart service" />
     <MESSAGE value="community.rabbitmq.rabbitmq_user--&gt; added" />
     <MESSAGE value="payment--&gt; Install python dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="payment--&gt; Install python dependencies" />
+    <MESSAGE value="payment--&gt; app-user setp" />
+    <option name="LAST_COMMIT_MESSAGE" value="payment--&gt; app-user setp" />
   </component>
 </project>
