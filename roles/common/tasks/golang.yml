@@ -1,0 +1,14 @@
+- name: Install GoLang dependemcies
+  ansible.builtin.golang:
+    name: golang
+    state: installed
+
+- name: Application user setup and download the files
+  import_tasks: app--user-setup.yml
+
+- name: Install App dependencies
+  ansible.builitin.shell: go mod init {{COMPONENT}} && go get && go build
+    args:
+      chdir: /home/roboshop/{{COMPONENT}}
+      become_user: roboshop
+
