@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="added handler function">
-      <change afterPath="$PROJECT_DIR$/roles/common/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roles/frontend/meta/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/frontend/handlers/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/frontend/handlers/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/frontend/templates/roboshop.conf" beforeDir="false" afterPath="$PROJECT_DIR$/roles/frontend/templates/roboshop.conf" afterDir="false" />
-    </list>
+    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="added handler function &amp; meta to the roles" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +33,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/roles/common/tasks" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/roles/user" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
@@ -56,13 +51,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00193" summary="REDIS_HOST updated in cart service">
-      <created>1642831235780</created>
-      <option name="number" value="00193" />
-      <option name="presentableId" value="LOCAL-00193" />
-      <option name="project" value="LOCAL" />
-      <updated>1642831235780</updated>
     </task>
     <task id="LOCAL-00194" summary="REDIS_HOST updated in cart service">
       <created>1642831293899</created>
@@ -400,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642895657314</updated>
     </task>
-    <option name="localTasksCounter" value="242" />
+    <task id="LOCAL-00242" summary="added handler function &amp; meta to the roles">
+      <created>1642896012470</created>
+      <option name="number" value="00242" />
+      <option name="presentableId" value="LOCAL-00242" />
+      <option name="project" value="LOCAL" />
+      <updated>1642896012471</updated>
+    </task>
+    <option name="localTasksCounter" value="243" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -415,7 +410,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="frontend--&gt; roboshop.conf updated" />
     <MESSAGE value="mysql.conf" />
     <MESSAGE value="mysql setup in roboshop.yml" />
     <MESSAGE value="grep default mysql word" />
@@ -440,6 +434,7 @@
     <MESSAGE value="payment--&gt;DRY code" />
     <MESSAGE value="payment--&gt;systemd service" />
     <MESSAGE value="added handler function" />
-    <option name="LAST_COMMIT_MESSAGE" value="added handler function" />
+    <MESSAGE value="added handler function &amp; meta to the roles" />
+    <option name="LAST_COMMIT_MESSAGE" value="added handler function &amp; meta to the roles" />
   </component>
 </project>
