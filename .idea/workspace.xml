@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="payment--&gt;systemd service">
-      <change afterPath="$PROJECT_DIR$/roles/frontend/handlers/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="added handler function">
+      <change afterPath="$PROJECT_DIR$/roles/common/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roles/frontend/meta/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/frontend/handlers/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/frontend/handlers/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/frontend/templates/roboshop.conf" beforeDir="false" afterPath="$PROJECT_DIR$/roles/frontend/templates/roboshop.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +56,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00192" summary="REDIS_HOST updated in cart service">
-      <created>1642831156007</created>
-      <option name="number" value="00192" />
-      <option name="presentableId" value="LOCAL-00192" />
-      <option name="project" value="LOCAL" />
-      <updated>1642831156007</updated>
     </task>
     <task id="LOCAL-00193" summary="REDIS_HOST updated in cart service">
       <created>1642831235780</created>
@@ -398,7 +393,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642855244486</updated>
     </task>
-    <option name="localTasksCounter" value="241" />
+    <task id="LOCAL-00241" summary="added handler function">
+      <created>1642895657313</created>
+      <option name="number" value="00241" />
+      <option name="presentableId" value="LOCAL-00241" />
+      <option name="project" value="LOCAL" />
+      <updated>1642895657314</updated>
+    </task>
+    <option name="localTasksCounter" value="242" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -413,7 +415,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="vars added to cart" />
     <MESSAGE value="frontend--&gt; roboshop.conf updated" />
     <MESSAGE value="mysql.conf" />
     <MESSAGE value="mysql setup in roboshop.yml" />
@@ -438,6 +439,7 @@
     <MESSAGE value="payment--&gt;Update Ip address of cart, rabbit mq &amp;user" />
     <MESSAGE value="payment--&gt;DRY code" />
     <MESSAGE value="payment--&gt;systemd service" />
-    <option name="LAST_COMMIT_MESSAGE" value="payment--&gt;systemd service" />
+    <MESSAGE value="added handler function" />
+    <option name="LAST_COMMIT_MESSAGE" value="added handler function" />
   </component>
 </project>
