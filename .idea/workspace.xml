@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="added handler function &amp; meta to the roles --&gt; set host-name">
-      <change afterPath="$PROJECT_DIR$/roles/cart/meta/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roles/catalogue/meta/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roles/dispatch/meta/main.yml" afterDir="false" />
+    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="meta--&gt; corrected">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/common/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/common/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/frontend/meta/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/frontend/meta/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/mongodb/meta/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/mongodb/meta/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/mysql/meta/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/mysql/meta/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/payment/meta/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/payment/meta/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/rabbitmq/meta/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/rabbitmq/meta/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/redis/meta/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/redis/meta/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/shipping/meta/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/shipping/meta/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/user/meta/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/user/meta/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,13 +60,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00195" summary="REDIS_HOST updated in cart service">
-      <created>1642831354159</created>
-      <option name="number" value="00195" />
-      <option name="presentableId" value="LOCAL-00195" />
-      <option name="project" value="LOCAL" />
-      <updated>1642831354159</updated>
     </task>
     <task id="LOCAL-00196" summary="REDIS_HOST updated in cart service">
       <created>1642831476168</created>
@@ -416,7 +397,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642896255742</updated>
     </task>
-    <option name="localTasksCounter" value="244" />
+    <task id="LOCAL-00244" summary="meta--&gt; corrected">
+      <created>1642896641839</created>
+      <option name="number" value="00244" />
+      <option name="presentableId" value="LOCAL-00244" />
+      <option name="project" value="LOCAL" />
+      <updated>1642896641839</updated>
+    </task>
+    <option name="localTasksCounter" value="245" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -431,7 +419,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="mysql setup in roboshop.yml" />
     <MESSAGE value="grep default mysql word" />
     <MESSAGE value="mysql --&gt; Change the default passwor" />
     <MESSAGE value="community.mysql.mysql_query:" />
@@ -456,6 +443,7 @@
     <MESSAGE value="added handler function" />
     <MESSAGE value="added handler function &amp; meta to the roles" />
     <MESSAGE value="added handler function &amp; meta to the roles --&gt; set host-name" />
-    <option name="LAST_COMMIT_MESSAGE" value="added handler function &amp; meta to the roles --&gt; set host-name" />
+    <MESSAGE value="meta--&gt; corrected" />
+    <option name="LAST_COMMIT_MESSAGE" value="meta--&gt; corrected" />
   </component>
 </project>
