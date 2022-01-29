@@ -10,10 +10,17 @@ pipeline {
  }
 
  stages {
-   stage {'Create Server'} {
+   stage('Create Server') {
      steps{
       sh 'bash ec2launch.sh ${COMPONENT} ${ENV}'
       }
    }
+
+   stage('Ansible playbook run') {
+      steps{
+       sh 'ansible-playbook -i roboshop.inv roboshop.yml -e  ENV=${ENV}'
+      }
+   }
+
  }
 }
