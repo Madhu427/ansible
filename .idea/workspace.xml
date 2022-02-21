@@ -62,13 +62,6 @@
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
     </task>
-    <task id="LOCAL-00205" summary="payment--&gt;Install python dependencies">
-      <created>1642835242501</created>
-      <option name="number" value="00205" />
-      <option name="presentableId" value="LOCAL-00205" />
-      <option name="project" value="LOCAL" />
-      <updated>1642835242502</updated>
-    </task>
     <task id="LOCAL-00206" summary="payment--&gt;systemd.service update">
       <created>1642838883162</created>
       <option name="number" value="00206" />
@@ -405,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645451572567</updated>
     </task>
-    <option name="localTasksCounter" value="254" />
+    <task id="LOCAL-00254" summary="Jenkins file ---&gt; stage{'Create Server'}">
+      <created>1645453503608</created>
+      <option name="number" value="00254" />
+      <option name="presentableId" value="LOCAL-00254" />
+      <option name="project" value="LOCAL" />
+      <updated>1645453503608</updated>
+    </task>
+    <option name="localTasksCounter" value="255" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
