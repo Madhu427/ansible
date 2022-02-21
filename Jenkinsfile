@@ -1,5 +1,6 @@
 pipeline {
- agent { label 'workstation'}
+  agent any
+//  agent { label 'workstation'}
  options {
          ansiColor('xterm')
  }
@@ -10,7 +11,7 @@ pipeline {
  }
 
  environment {
- SSH = credentials('CENTOS')
+  SSH = credentials('CENTOS')
  }
 
  stages {
@@ -22,9 +23,9 @@ pipeline {
 
    stage('Ansible playbook run') {
       steps{
-      script {
-      env.ANSIBLE_TAG=COMPONENT.toUpperCase{}
-      }
+       script {
+         env.ANSIBLE_TAG=COMPONENT.toUpperCase{}
+       }
        sh 'ansible-playbook -i roboshop.inv roboshop.yml -e  ENV=${ENV} -t ${ANSIBLE_TAG} -e ansible_password=$(SSH_PSW) -u $(SSH_USR)'
       }
    }
