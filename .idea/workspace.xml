@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="Jenkins file ---&gt; stage{'Create Server'}">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,41 +61,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00199" summary="REDIS_HOST updated in cart service">
-      <created>1642831735866</created>
-      <option name="number" value="00199" />
-      <option name="presentableId" value="LOCAL-00199" />
-      <option name="project" value="LOCAL" />
-      <updated>1642831735866</updated>
-    </task>
-    <task id="LOCAL-00200" summary="community.rabbitmq.rabbitmq_user--&gt; added">
-      <created>1642833040738</created>
-      <option name="number" value="00200" />
-      <option name="presentableId" value="LOCAL-00200" />
-      <option name="project" value="LOCAL" />
-      <updated>1642833040738</updated>
-    </task>
-    <task id="LOCAL-00201" summary="community.rabbitmq.rabbitmq_user--&gt; added">
-      <created>1642833344479</created>
-      <option name="number" value="00201" />
-      <option name="presentableId" value="LOCAL-00201" />
-      <option name="project" value="LOCAL" />
-      <updated>1642833344479</updated>
-    </task>
-    <task id="LOCAL-00202" summary="payment--&gt; Install python dependencies">
-      <created>1642833669567</created>
-      <option name="number" value="00202" />
-      <option name="presentableId" value="LOCAL-00202" />
-      <option name="project" value="LOCAL" />
-      <updated>1642833669567</updated>
-    </task>
-    <task id="LOCAL-00203" summary="payment--&gt; Install python dependencies">
-      <created>1642833744288</created>
-      <option name="number" value="00203" />
-      <option name="presentableId" value="LOCAL-00203" />
-      <option name="project" value="LOCAL" />
-      <updated>1642833744288</updated>
     </task>
     <task id="LOCAL-00204" summary="payment--&gt; app-user setp">
       <created>1642834525800</created>
@@ -404,7 +370,42 @@
       <option name="project" value="LOCAL" />
       <updated>1643363440926</updated>
     </task>
-    <option name="localTasksCounter" value="248" />
+    <task id="LOCAL-00248" summary="Jenkins file ---&gt; stage{'Create Server'}">
+      <created>1643363778040</created>
+      <option name="number" value="00248" />
+      <option name="presentableId" value="LOCAL-00248" />
+      <option name="project" value="LOCAL" />
+      <updated>1643363778041</updated>
+    </task>
+    <task id="LOCAL-00249" summary="Jenkins file ---&gt; stage{'Create Server'}">
+      <created>1643363837236</created>
+      <option name="number" value="00249" />
+      <option name="presentableId" value="LOCAL-00249" />
+      <option name="project" value="LOCAL" />
+      <updated>1643363837236</updated>
+    </task>
+    <task id="LOCAL-00250" summary="Jenkins file ---&gt; stage{'Create Server'}">
+      <created>1643363933623</created>
+      <option name="number" value="00250" />
+      <option name="presentableId" value="LOCAL-00250" />
+      <option name="project" value="LOCAL" />
+      <updated>1643363933623</updated>
+    </task>
+    <task id="LOCAL-00251" summary="Jenkins file ---&gt; stage{'Create Server'}">
+      <created>1643421258321</created>
+      <option name="number" value="00251" />
+      <option name="presentableId" value="LOCAL-00251" />
+      <option name="project" value="LOCAL" />
+      <updated>1643421258321</updated>
+    </task>
+    <task id="LOCAL-00252" summary="Jenkins file ---&gt; stage{'Create Server'}">
+      <created>1645451261779</created>
+      <option name="number" value="00252" />
+      <option name="presentableId" value="LOCAL-00252" />
+      <option name="project" value="LOCAL" />
+      <updated>1645451261781</updated>
+    </task>
+    <option name="localTasksCounter" value="253" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
