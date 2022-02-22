@@ -24,11 +24,11 @@ pipeline {
       steps{
          sh 'echo ${SSH} | base64'
        script {
-         env.ANISIBLE_TAG="COMPONENT".toUpperCase()
+         ANISIBLE_TAG="COMPONENT".toUpperCase()
        }
 //        sh 'sleep 60'
 
-       sh 'ansible-playbook -i roboshop.inv roboshop.yml -e  ENV=${ENV} -t ${env.ANISIBLE_TAG} -e ansible_password=${SSH_PSW} -u ${SSH_USR}'
+       sh 'ansible-playbook -i roboshop.inv roboshop.yml -e  ENV=${ENV} -t ${ANISIBLE_TAG} -e ansible_password=${SSH_PSW} -u ${SSH_USR}'
       }
    }
 
