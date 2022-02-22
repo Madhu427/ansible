@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="env.ANSIBLE_TAG=&quot;COMPONENT&quot;.toUpperCase()--&gt; correction done">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="env.ANSIBLE_TAG=&quot;COMPONENT&quot;.toUpperCase()--&gt; correction done" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,20 +58,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00210" summary="payment--&gt;systemd.service update">
-      <created>1642840862137</created>
-      <option name="number" value="00210" />
-      <option name="presentableId" value="LOCAL-00210" />
-      <option name="project" value="LOCAL" />
-      <updated>1642840862137</updated>
-    </task>
-    <task id="LOCAL-00211" summary="payment--&gt;systemd.service update">
-      <created>1642841093402</created>
-      <option name="number" value="00211" />
-      <option name="presentableId" value="LOCAL-00211" />
-      <option name="project" value="LOCAL" />
-      <updated>1642841093402</updated>
     </task>
     <task id="LOCAL-00212" summary="payment--&gt;systemd.service update">
       <created>1642841279892</created>
@@ -404,7 +388,21 @@
       <option name="project" value="LOCAL" />
       <updated>1645525809350</updated>
     </task>
-    <option name="localTasksCounter" value="259" />
+    <task id="LOCAL-00259" summary="env.ANSIBLE_TAG=&quot;COMPONENT&quot;.toUpperCase()--&gt; correction done">
+      <created>1645526589245</created>
+      <option name="number" value="00259" />
+      <option name="presentableId" value="LOCAL-00259" />
+      <option name="project" value="LOCAL" />
+      <updated>1645526589245</updated>
+    </task>
+    <task id="LOCAL-00260" summary="env.ANSIBLE_TAG=&quot;COMPONENT&quot;.toUpperCase()--&gt; correction done">
+      <created>1645526750842</created>
+      <option name="number" value="00260" />
+      <option name="presentableId" value="LOCAL-00260" />
+      <option name="project" value="LOCAL" />
+      <updated>1645526750843</updated>
+    </task>
+    <option name="localTasksCounter" value="261" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
