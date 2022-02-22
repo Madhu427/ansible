@@ -24,7 +24,7 @@ pipeline {
       steps{
          sh 'echo ${SSH} | base64'
        script {
-         ANISIBLE_TAG="COMPONENT".toUpperCase()
+         env.ANISIBLE_TAG=COMPONENT.toUpperCase()
        }
 //        sh 'sleep 60'
 
