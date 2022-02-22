@@ -25,6 +25,7 @@ pipeline {
        script {
          env.ANSIBLE_TAG=COMPONENT.toUpperCase{}
        }
+       sh 'sleep 60'
        sh 'ansible-playbook -i roboshop.inv roboshop.yml -e  ENV=${ENV} -t ${ANSIBLE_TAG} -e ansible_password=$(SSH_PSW) -u $(SSH_USR)'
       }
    }
