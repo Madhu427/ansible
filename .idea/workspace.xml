@@ -59,20 +59,6 @@
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
     </task>
-    <task id="LOCAL-00231" summary="payment--&gt;DRY code">
-      <created>1642850787657</created>
-      <option name="number" value="00231" />
-      <option name="presentableId" value="LOCAL-00231" />
-      <option name="project" value="LOCAL" />
-      <updated>1642850787657</updated>
-    </task>
-    <task id="LOCAL-00232" summary="payment--&gt;DRY code">
-      <created>1642850937828</created>
-      <option name="number" value="00232" />
-      <option name="presentableId" value="LOCAL-00232" />
-      <option name="project" value="LOCAL" />
-      <updated>1642850937829</updated>
-    </task>
     <task id="LOCAL-00233" summary="payment--&gt;DRY code">
       <created>1642851095008</created>
       <option name="number" value="00233" />
@@ -402,7 +388,21 @@
       <option name="project" value="LOCAL" />
       <updated>1645557246304</updated>
     </task>
-    <option name="localTasksCounter" value="280" />
+    <task id="LOCAL-00280" summary="dev &amp; rod changed to small in jenkins file">
+      <created>1645557422214</created>
+      <option name="number" value="00280" />
+      <option name="presentableId" value="LOCAL-00280" />
+      <option name="project" value="LOCAL" />
+      <updated>1645557422215</updated>
+    </task>
+    <task id="LOCAL-00281" summary="dev &amp; rod changed to small in jenkins file">
+      <created>1645557523628</created>
+      <option name="number" value="00281" />
+      <option name="presentableId" value="LOCAL-00281" />
+      <option name="project" value="LOCAL" />
+      <updated>1645557523628</updated>
+    </task>
+    <option name="localTasksCounter" value="282" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
