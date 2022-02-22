@@ -30,6 +30,11 @@
   ansible.builtin.shell: grep 'temporary password' /var/log/mysqld.log | awk '{print $NF}'
   register: mysql_default_password
 
+- name: Change the My sql default root password
+  ansible.builtin.template:
+    src: root-pass-reset.sql
+    dest: /tmp/root-pass-reset.sql
+
 - name: check if the new password is working
   community.mysql.mysql_query:
     query: "show databases"
