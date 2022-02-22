@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="ec2 temp version updated" />
+    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="env.ANSIBLE_TAG=&quot;COMPONENT&quot;.toUpperCase()--&gt; correction done">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,13 +60,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00209" summary="payment--&gt;systemd.service update">
-      <created>1642839837598</created>
-      <option name="number" value="00209" />
-      <option name="presentableId" value="LOCAL-00209" />
-      <option name="project" value="LOCAL" />
-      <updated>1642839837598</updated>
     </task>
     <task id="LOCAL-00210" summary="payment--&gt;systemd.service update">
       <created>1642840862137</created>
@@ -402,7 +397,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645524979010</updated>
     </task>
-    <option name="localTasksCounter" value="258" />
+    <task id="LOCAL-00258" summary="env.ANSIBLE_TAG=&quot;COMPONENT&quot;.toUpperCase()--&gt; correction done">
+      <created>1645525809350</created>
+      <option name="number" value="00258" />
+      <option name="presentableId" value="LOCAL-00258" />
+      <option name="project" value="LOCAL" />
+      <updated>1645525809350</updated>
+    </task>
+    <option name="localTasksCounter" value="259" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -417,7 +419,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="MySQL-python added" />
     <MESSAGE value="uninstall the validate password" />
     <MESSAGE value="maven config &amp; app user setup" />
     <MESSAGE value="systemd.service --&gt; shiiping" />
@@ -442,6 +443,7 @@
     <MESSAGE value="Jenkins file added" />
     <MESSAGE value="Jenkins file ---&gt; stage{'Create Server'}" />
     <MESSAGE value="ec2 temp version updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="ec2 temp version updated" />
+    <MESSAGE value="env.ANSIBLE_TAG=&quot;COMPONENT&quot;.toUpperCase()--&gt; correction done" />
+    <option name="LAST_COMMIT_MESSAGE" value="env.ANSIBLE_TAG=&quot;COMPONENT&quot;.toUpperCase()--&gt; correction done" />
   </component>
 </project>
