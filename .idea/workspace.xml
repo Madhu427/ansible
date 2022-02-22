@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="env.ANSIBLE_TAG=&quot;COMPONENT&quot;.toUpperCase()--&gt; correction done" />
+    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="dev &amp; rod changed to small in jenkins file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,13 +58,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00221" summary="payment--&gt;DRY code">
-      <created>1642846148917</created>
-      <option name="number" value="00221" />
-      <option name="presentableId" value="LOCAL-00221" />
-      <option name="project" value="LOCAL" />
-      <updated>1642846148917</updated>
     </task>
     <task id="LOCAL-00222" summary="payment--&gt;DRY code">
       <created>1642846327556</created>
@@ -402,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645535599139</updated>
     </task>
-    <option name="localTasksCounter" value="270" />
+    <task id="LOCAL-00270" summary="dev &amp; rod changed to small in jenkins file">
+      <created>1645536301396</created>
+      <option name="number" value="00270" />
+      <option name="presentableId" value="LOCAL-00270" />
+      <option name="project" value="LOCAL" />
+      <updated>1645536301396</updated>
+    </task>
+    <option name="localTasksCounter" value="271" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -417,7 +417,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="uninstall the validate password" />
     <MESSAGE value="maven config &amp; app user setup" />
     <MESSAGE value="systemd.service --&gt; shiiping" />
     <MESSAGE value="shipping.conf" />
@@ -442,6 +441,7 @@
     <MESSAGE value="Jenkins file ---&gt; stage{'Create Server'}" />
     <MESSAGE value="ec2 temp version updated" />
     <MESSAGE value="env.ANSIBLE_TAG=&quot;COMPONENT&quot;.toUpperCase()--&gt; correction done" />
-    <option name="LAST_COMMIT_MESSAGE" value="env.ANSIBLE_TAG=&quot;COMPONENT&quot;.toUpperCase()--&gt; correction done" />
+    <MESSAGE value="dev &amp; rod changed to small in jenkins file" />
+    <option name="LAST_COMMIT_MESSAGE" value="dev &amp; rod changed to small in jenkins file" />
   </component>
 </project>
