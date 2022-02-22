@@ -59,13 +59,6 @@
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
     </task>
-    <task id="LOCAL-00208" summary="payment--&gt;systemd.service update">
-      <created>1642839818724</created>
-      <option name="number" value="00208" />
-      <option name="presentableId" value="LOCAL-00208" />
-      <option name="project" value="LOCAL" />
-      <updated>1642839818724</updated>
-    </task>
     <task id="LOCAL-00209" summary="payment--&gt;systemd.service update">
       <created>1642839837598</created>
       <option name="number" value="00209" />
@@ -402,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645524448219</updated>
     </task>
-    <option name="localTasksCounter" value="257" />
+    <task id="LOCAL-00257" summary="ec2 temp version updated">
+      <created>1645524979010</created>
+      <option name="number" value="00257" />
+      <option name="presentableId" value="LOCAL-00257" />
+      <option name="project" value="LOCAL" />
+      <updated>1645524979010</updated>
+    </task>
+    <option name="localTasksCounter" value="258" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
