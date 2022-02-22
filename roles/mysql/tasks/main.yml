@@ -26,12 +26,12 @@
     enabled: true
     state: started
 
-- name: check if the new password is working
-  community.mysql.mysql_query:
-    query: "show databases"
-    login_user: root
-    login_password: "{{MYSQL_ROOT_PASSWORD}}"
-  register: out
+#- name: check if the new password is working
+#  community.mysql.mysql_query:
+#    query: "show databases"
+#    login_user: root
+#    login_password: "{{MYSQL_ROOT_PASSWORD}}"
+#  register: out
 
 - name: Change the default password
   when: out.failed | bool
