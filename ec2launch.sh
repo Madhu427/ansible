@@ -20,7 +20,6 @@ fi
 
 CREATE_INST() {
 
-
 aws ec2 describe-instances --filters "Name=tag:Name,Values=${COMPONENT}" | jq .Reservations[].Instances[].State.Name | sed 's/"//g' | grep -E "running|stopped" &>/dev/null
 
 if [ $? -eq 0 ]; then

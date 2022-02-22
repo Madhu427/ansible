@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="Jenkins file ---&gt; stage{'Create Server'}">
+    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="ec2 temp version updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,13 +60,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00206" summary="payment--&gt;systemd.service update">
-      <created>1642838883162</created>
-      <option name="number" value="00206" />
-      <option name="presentableId" value="LOCAL-00206" />
-      <option name="project" value="LOCAL" />
-      <updated>1642838883162</updated>
     </task>
     <task id="LOCAL-00207" summary="payment--&gt;systemd.service update">
       <created>1642839448223</created>
@@ -405,7 +397,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645453503608</updated>
     </task>
-    <option name="localTasksCounter" value="255" />
+    <task id="LOCAL-00255" summary="ec2 temp version updated">
+      <created>1645455737460</created>
+      <option name="number" value="00255" />
+      <option name="presentableId" value="LOCAL-00255" />
+      <option name="project" value="LOCAL" />
+      <updated>1645455737460</updated>
+    </task>
+    <option name="localTasksCounter" value="256" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -420,7 +419,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="community.mysql.mysql_query:" />
     <MESSAGE value="MySQL-python added" />
     <MESSAGE value="uninstall the validate password" />
     <MESSAGE value="maven config &amp; app user setup" />
@@ -445,6 +443,7 @@
     <MESSAGE value="meta--&gt; corrected" />
     <MESSAGE value="Jenkins file added" />
     <MESSAGE value="Jenkins file ---&gt; stage{'Create Server'}" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jenkins file ---&gt; stage{'Create Server'}" />
+    <MESSAGE value="ec2 temp version updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="ec2 temp version updated" />
   </component>
 </project>
