@@ -61,13 +61,6 @@
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
     </task>
-    <task id="LOCAL-00241" summary="added handler function">
-      <created>1642895657313</created>
-      <option name="number" value="00241" />
-      <option name="presentableId" value="LOCAL-00241" />
-      <option name="project" value="LOCAL" />
-      <updated>1642895657314</updated>
-    </task>
     <task id="LOCAL-00242" summary="added handler function &amp; meta to the roles">
       <created>1642896012470</created>
       <option name="number" value="00242" />
@@ -404,7 +397,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645602743700</updated>
     </task>
-    <option name="localTasksCounter" value="290" />
+    <task id="LOCAL-00290" summary="mysql ***">
+      <created>1645602895399</created>
+      <option name="number" value="00290" />
+      <option name="presentableId" value="LOCAL-00290" />
+      <option name="project" value="LOCAL" />
+      <updated>1645602895400</updated>
+    </task>
+    <option name="localTasksCounter" value="291" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
