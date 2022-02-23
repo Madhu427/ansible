@@ -42,14 +42,14 @@
        register: mysql_default_password
 
 
-    - name: copy SQL for for password reset
-      ansible.builtin.template:
-        src: root-pass-reset.sql
-        dest: /tmp/root-pass-reset.sql
+     - name: copy SQL for for password reset
+       ansible.builtin.template:
+         src: root-pass-reset.sql
+         dest: /tmp/root-pass-reset.sql
 
 
-    - name: Change the default password
-      ansible.builtin.shell: mysql --connect-expired-password -uroot -p"{{mysql_default_password.stdout}}" </tmp/root-pass-reset.sql
+     - name: Change the default password
+       ansible.builtin.shell: mysql --connect-expired-password -uroot -p"{{mysql_default_password.stdout}}" </tmp/root-pass-reset.sql
 
 
 
