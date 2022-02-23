@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="dev &amp; rod changed to small in jenkins file">
+    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="mysql ***">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roles/mysql/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/mysql/tasks/main.yml" afterDir="false" />
     </list>
@@ -61,20 +61,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00236" summary="payment--&gt;systemd service">
-      <created>1642852496110</created>
-      <option name="number" value="00236" />
-      <option name="presentableId" value="LOCAL-00236" />
-      <option name="project" value="LOCAL" />
-      <updated>1642852496110</updated>
-    </task>
-    <task id="LOCAL-00237" summary="payment--&gt;systemd service">
-      <created>1642852628064</created>
-      <option name="number" value="00237" />
-      <option name="presentableId" value="LOCAL-00237" />
-      <option name="project" value="LOCAL" />
-      <updated>1642852628064</updated>
     </task>
     <task id="LOCAL-00238" summary="payment--&gt;systemd service">
       <created>1642853378844</created>
@@ -405,7 +391,21 @@
       <option name="project" value="LOCAL" />
       <updated>1645600356464</updated>
     </task>
-    <option name="localTasksCounter" value="285" />
+    <task id="LOCAL-00285" summary="dev &amp; rod changed to small in jenkins file">
+      <created>1645600834869</created>
+      <option name="number" value="00285" />
+      <option name="presentableId" value="LOCAL-00285" />
+      <option name="project" value="LOCAL" />
+      <updated>1645600834871</updated>
+    </task>
+    <task id="LOCAL-00286" summary="mysql ***">
+      <created>1645601044651</created>
+      <option name="number" value="00286" />
+      <option name="presentableId" value="LOCAL-00286" />
+      <option name="project" value="LOCAL" />
+      <updated>1645601044651</updated>
+    </task>
+    <option name="localTasksCounter" value="287" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -420,7 +420,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="maven config &amp; app user setup" />
     <MESSAGE value="systemd.service --&gt; shiiping" />
     <MESSAGE value="shipping.conf" />
     <MESSAGE value="shipping.conf --&gt; import systemd service" />
@@ -445,6 +444,7 @@
     <MESSAGE value="ec2 temp version updated" />
     <MESSAGE value="env.ANSIBLE_TAG=&quot;COMPONENT&quot;.toUpperCase()--&gt; correction done" />
     <MESSAGE value="dev &amp; rod changed to small in jenkins file" />
-    <option name="LAST_COMMIT_MESSAGE" value="dev &amp; rod changed to small in jenkins file" />
+    <MESSAGE value="mysql ***" />
+    <option name="LAST_COMMIT_MESSAGE" value="mysql ***" />
   </component>
 </project>
