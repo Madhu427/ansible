@@ -59,13 +59,6 @@
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
     </task>
-    <task id="LOCAL-00239" summary="payment--&gt;systemd service">
-      <created>1642854336628</created>
-      <option name="number" value="00239" />
-      <option name="presentableId" value="LOCAL-00239" />
-      <option name="project" value="LOCAL" />
-      <updated>1642854336628</updated>
-    </task>
     <task id="LOCAL-00240" summary="payment--&gt;systemd service">
       <created>1642855244486</created>
       <option name="number" value="00240" />
@@ -402,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645602171734</updated>
     </task>
-    <option name="localTasksCounter" value="288" />
+    <task id="LOCAL-00288" summary="mysql ***">
+      <created>1645602407043</created>
+      <option name="number" value="00288" />
+      <option name="presentableId" value="LOCAL-00288" />
+      <option name="project" value="LOCAL" />
+      <updated>1645602407043</updated>
+    </task>
+    <option name="localTasksCounter" value="289" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
