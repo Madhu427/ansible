@@ -32,7 +32,7 @@
 
 - name: print the default password
   ansible.builtin.debug:
-   msg: "{{mysql_default_password}}"
+   msg: "{{mysql_default_password.stdout}}"
 
 
 
