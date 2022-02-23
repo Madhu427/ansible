@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="mysql ***">
-      <change beforePath="$PROJECT_DIR$/roles/mysql/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/mysql/tasks/main.yml" afterDir="false" />
-    </list>
+    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="mysql ***" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,27 +58,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00242" summary="added handler function &amp; meta to the roles">
-      <created>1642896012470</created>
-      <option name="number" value="00242" />
-      <option name="presentableId" value="LOCAL-00242" />
-      <option name="project" value="LOCAL" />
-      <updated>1642896012471</updated>
-    </task>
-    <task id="LOCAL-00243" summary="added handler function &amp; meta to the roles --&gt; set host-name">
-      <created>1642896255742</created>
-      <option name="number" value="00243" />
-      <option name="presentableId" value="LOCAL-00243" />
-      <option name="project" value="LOCAL" />
-      <updated>1642896255742</updated>
-    </task>
-    <task id="LOCAL-00244" summary="meta--&gt; corrected">
-      <created>1642896641839</created>
-      <option name="number" value="00244" />
-      <option name="presentableId" value="LOCAL-00244" />
-      <option name="project" value="LOCAL" />
-      <updated>1642896641839</updated>
     </task>
     <task id="LOCAL-00245" summary="Jenkins file added">
       <created>1643359972651</created>
@@ -404,7 +381,28 @@
       <option name="project" value="LOCAL" />
       <updated>1645602895400</updated>
     </task>
-    <option name="localTasksCounter" value="291" />
+    <task id="LOCAL-00291" summary="mysql ***">
+      <created>1645603205620</created>
+      <option name="number" value="00291" />
+      <option name="presentableId" value="LOCAL-00291" />
+      <option name="project" value="LOCAL" />
+      <updated>1645603205620</updated>
+    </task>
+    <task id="LOCAL-00292" summary="mysql ***">
+      <created>1645603385147</created>
+      <option name="number" value="00292" />
+      <option name="presentableId" value="LOCAL-00292" />
+      <option name="project" value="LOCAL" />
+      <updated>1645603385147</updated>
+    </task>
+    <task id="LOCAL-00293" summary="mysql ***">
+      <created>1645603459307</created>
+      <option name="number" value="00293" />
+      <option name="presentableId" value="LOCAL-00293" />
+      <option name="project" value="LOCAL" />
+      <updated>1645603459307</updated>
+    </task>
+    <option name="localTasksCounter" value="294" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
