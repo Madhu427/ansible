@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="mysql ***" />
+    <list default="true" id="bbb79b71-ba1d-422d-9613-f7ef851808e4" name="Changes" comment="Adding Separate folder 'CI-Pipelines'">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +14,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../jenkins/seed.groovy" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../jenkins/Jenkinsfile" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -33,7 +39,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/roles/user" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jenkins" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
@@ -58,27 +64,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642227908812</updated>
-    </task>
-    <task id="LOCAL-00245" summary="Jenkins file added">
-      <created>1643359972651</created>
-      <option name="number" value="00245" />
-      <option name="presentableId" value="LOCAL-00245" />
-      <option name="project" value="LOCAL" />
-      <updated>1643359972652</updated>
-    </task>
-    <task id="LOCAL-00246" summary="Jenkins file ---&gt; stage{'Create Server'}">
-      <created>1643361138314</created>
-      <option name="number" value="00246" />
-      <option name="presentableId" value="LOCAL-00246" />
-      <option name="project" value="LOCAL" />
-      <updated>1643361138314</updated>
-    </task>
-    <task id="LOCAL-00247" summary="Jenkins file ---&gt; stage{'Create Server'}">
-      <created>1643363440926</created>
-      <option name="number" value="00247" />
-      <option name="presentableId" value="LOCAL-00247" />
-      <option name="project" value="LOCAL" />
-      <updated>1643363440926</updated>
     </task>
     <task id="LOCAL-00248" summary="Jenkins file ---&gt; stage{'Create Server'}">
       <created>1643363778040</created>
@@ -402,7 +387,28 @@
       <option name="project" value="LOCAL" />
       <updated>1645603459307</updated>
     </task>
-    <option name="localTasksCounter" value="294" />
+    <task id="LOCAL-00294" summary="mysql ***">
+      <created>1645603643166</created>
+      <option name="number" value="00294" />
+      <option name="presentableId" value="LOCAL-00294" />
+      <option name="project" value="LOCAL" />
+      <updated>1645603643166</updated>
+    </task>
+    <task id="LOCAL-00295" summary="mysql ***">
+      <created>1645603691317</created>
+      <option name="number" value="00295" />
+      <option name="presentableId" value="LOCAL-00295" />
+      <option name="project" value="LOCAL" />
+      <updated>1645603691317</updated>
+    </task>
+    <task id="LOCAL-00296" summary="mysql ***">
+      <created>1645611527388</created>
+      <option name="number" value="00296" />
+      <option name="presentableId" value="LOCAL-00296" />
+      <option name="project" value="LOCAL" />
+      <updated>1645611527393</updated>
+    </task>
+    <option name="localTasksCounter" value="297" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
