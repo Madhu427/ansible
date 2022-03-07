@@ -24,6 +24,9 @@
   ansible.builtin.import_role:
     name: common
     tasks_from: download
+  vars:
+    GIT_DOWNLOAD: true
+
 
 - name: Run a js file containing MongoDB commands with pseudo-idempotency
   community.mongodb.mongodb_shell:
