@@ -13,3 +13,4 @@
     username: "{{NEXUS_USERNAME}}"
     password: "{{NEXUS_PASSWORD}}"
   when: GIT_DOWNLOAD is not defined
+  ignore_errors: yes
