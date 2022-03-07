@@ -20,7 +20,7 @@
     state: absent
 
 - name: Create App Dir
-  ansible.buitin.file:
+  ansible.builtin.file:
     path: /home/roboshop/{{COMPONENT}}
     state: directory
   become_user: roboshop
