@@ -33,7 +33,7 @@
 #  become_user: roboshop
 
 - name: Unzip the {{COMPONENT}}
-  ansible.builtin.unarchieve:
+  ansible.builtin.unarchive:
     src: /tmp/{{COMPONENT}}-{{APP_VERSION}}.zip
     dest: /home/roboshop/{{COMPONENT}}/
     remote_src: yes
