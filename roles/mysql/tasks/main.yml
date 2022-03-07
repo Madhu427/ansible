@@ -67,8 +67,8 @@
 
 - name: Download and unzip the {{COMPONENT}} content
   ansible.builtin.import_role:
-   name: common
-   tasks_from: download
+    name: common
+    tasks_from: download
   vars:
     GIT_DOWNLOAD: true
 
