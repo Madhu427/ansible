@@ -28,12 +28,21 @@
     GIT_DOWNLOAD: true
 
 
-- name: Run a js file containing MongoDB commands with pseudo-idempotency
-  community.mongodb.mongodb_shell:
-    file: "/tmp/mongodb-main/catalogue.js"
-    idempotent: yes
+#- name: Run a js file containing MongoDB commands with pseudo-idempotency
+#  community.mongodb.mongodb_shell:
+#    file: "/tmp/mongodb-main/catalogue.js"
+#    idempotent: yes
+#
+#- name: Run a js file containing MongoDB commands with pseudo-idempotency
+#  community.mongodb.mongodb_shell:
+#    file: "/tmp/mongodb-main/users.js"
+#    idempotent: yes
 
-- name: Run a js file containing MongoDB commands with pseudo-idempotency
+
+- name: Load Schema
   community.mongodb.mongodb_shell:
-    file: "/tmp/mongodb-main/users.js"
+    file: "/tmp/mongodb-main/{{item}}.js"
     idempotent: yes
+  loop:
+    - catalogue
+    - users
