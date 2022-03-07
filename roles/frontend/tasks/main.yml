@@ -15,7 +15,7 @@
 
 - name: Create HTML Dir
   ansible.builtin.file:
-    src: /usr/share/nginx/html/
+    src: /usr/share/nginx/html
     path: directory
 
 #- name: Copy the html web pages
