@@ -24,7 +24,7 @@
 #    dest: /usr/share/nginx/html/
 #    remote_src: yes
 
--name: Unzip the {{COMPONENT}}
+- name: Unzip the {{COMPONENT}}
   ansible.builtin.unarchive:
     src: /tmp/{{COMPONENT}}-{{APP_VERSION}}.zip
     dest: /usr/share/nginx/html/
