@@ -5,6 +5,14 @@
   roles:
     - frontend
 
+- name: Catalogue Setup
+  hosts: CATALOGUE
+  become: yes
+  tags: CATALOGUE
+  roles:
+    - catalogue
+
+
 - name: Mongodb Setup
   hosts: MONGODB
   become: yes
@@ -12,12 +20,6 @@
   roles:
     - mongodb
 
-- name: Catalogue Setup
-  hosts: CATALOGUE
-  become: yes
-  tags: CATALOGUE
-  roles:
-    - catalogue
 
 - name: Redis Setup
   hosts: REDIS
