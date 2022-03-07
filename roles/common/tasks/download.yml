@@ -5,7 +5,6 @@
     remote_src: yes
   when: GIT_DOWNLOAD is defined
 
-  ////// in place of COMPONENT1 i had placed COMPONENT
 
 - name: Download {{COMPONENT}} from Nexus
   ansible.builtin.get_url:

@@ -7,7 +7,7 @@
       - nodejs
       - make
       - gcc-c++
-    state: latest
+    state: installed
 
 
 - name: Add App user setup
