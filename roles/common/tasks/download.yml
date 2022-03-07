@@ -1,6 +1,6 @@
 - name: Download and unzip the {{COMPONENT}} content
   ansible.builtin.unarchive:
-      src: https://github.com/roboshop-devops-project/{{COMPONENT1}}/archive/main.zip
+    src: https://github.com/roboshop-devops-project/{{COMPONENT1}}/archive/main.zip
     dest: /tmp
     remote_src: yes
   when: GIT_DOWNLOAD is defined
