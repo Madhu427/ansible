@@ -30,11 +30,11 @@
     path: /home/roboshop/payment/payment.ini
     regexp: '^gid'
     line: uid = {{app_user_info.group}}
-
-- name: Update Ip address of cart, rabbit mq &user
-  ansible.builtin.template:
-    src: systemd.service
-    dest: /etc/systemd/system/{{COMPONENT}}.service
+#
+#- name: Update Ip address of cart, rabbit mq &user
+#  ansible.builtin.template:
+#    src: systemd.service
+#    dest: /etc/systemd/system/{{COMPONENT}}.service
 
 
 - name: Start payment service
