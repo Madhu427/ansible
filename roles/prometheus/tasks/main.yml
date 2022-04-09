@@ -1,0 +1,16 @@
+- name: Update the Prometheus file
+  template:
+    src: prometheus.yml
+    dest: /opt/prometheus/prometheus.yml
+
+- name: Update the records file
+  template:
+    src: records.yml
+    dest: /opt/prometheus/records.yml
+
+
+- name: Restart the Prometheus
+  systemd:
+    name: prometheus
+    state: restarted
+    enabled: yes
