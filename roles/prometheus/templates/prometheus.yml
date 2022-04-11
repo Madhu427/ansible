@@ -45,4 +45,4 @@ scrape_configs:
         target_label: environment
       - source_labels: [ __meta_ec2_tag_Name ]
         target_label: instanceName
-        #by giving relabel config we can easily detect the instance which we are going to monitor
+        #by giving relabel config we can easily detect the instance which we are going to monitor the instances
