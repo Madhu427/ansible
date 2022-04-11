@@ -32,7 +32,7 @@ scrape_configs:
 #      - targets: ["100.24.124.218:9100"]
 
   - job_name: "ec2-nodes"
-      ec2_sd_configs:
+    ec2_sd_configs:
         - region: us-east-1
 #          access_key: PUT_THE_ACCESS_KEY_HERE
 #          secret_key: PUT_THE_SECRET_KEY_HERE
