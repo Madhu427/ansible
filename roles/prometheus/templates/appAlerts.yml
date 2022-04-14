@@ -15,4 +15,4 @@ groups:
 
          description: "{{component}} Component Service Down - IP - {%raw%}[{{ $labels.instance}}], Name - [{{ $labels.instanceName}}]"{%endraw%}
 
-{% end for %}
+{% endfor %}
