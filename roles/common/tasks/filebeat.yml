@@ -12,3 +12,10 @@
   template:
     src: filebeat.yml
     dest: /etc/filebeat/filebeat.yml
+
+- name: Start filebeat
+  systemd:
+    name: filebeat
+    state: restarted
+    enabled: true
+
