@@ -24,7 +24,7 @@ groups:
           description: {%raw%}"CPU High Usage - IP - [{{ $labels.instance}}], Name - [{{ $labels.instanceName}}]"{%endraw%}
 
       - alert: MemoryUsageAlert
-          expr: memoryUsagePercentage > 80
+          expr: node_memory_used_percent > 80
           for: 2m
           labels:
             severity: critical
