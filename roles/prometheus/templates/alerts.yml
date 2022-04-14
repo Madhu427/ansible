@@ -10,8 +10,11 @@ groups:
           kind: instanceDown
         annotations:
           summary: {%raw%}"Instance Down - IP - [{{ $labels.instance}}], Name - [{{ $labels.instanceName}}]"{%endraw%}
+
           description: {%raw%}"Instance Down - IP - [{{ $labels.instance}}], Name - [{{ $labels.instanceName}}]"{%endraw%}
 
+  - name: CPU Alerts
+    rules:
       - alert: CpuUsageAlert
         expr: CPU Percentage Usage > 80
         for: 2m
@@ -21,15 +24,19 @@ groups:
           kind: cpuHighUsage
         annotations:
           summary: {%raw%}"CPU High usage - IP - [{{ $labels.instance}}], Name - [{{ $labels.instanceName}}]"{%endraw%}
+
           description: {%raw%}"CPU High Usage - IP - [{{ $labels.instance}}], Name - [{{ $labels.instanceName}}]"{%endraw%}
 
+  - name: Memory Alerts
+    rules:
       - alert: MemoryUsageAlert
-          expr: node_memory_used_percent > 80
-          for: 2m
-          labels:
-            severity: critical
-            type: InstanceAlert
-            kind: memoryHighUsage
-          annotations:
-            summary: {%raw%}"Memory High Usage - IP - [{{ $labels.instance}}], Name - [{{ $labels.instanceName}}]"{%endraw%}
-            description: {%raw%}"Memory High Usage - IP - [{{ $labels.instance}}], Name - [{{ $labels.instanceName}}]"{%endraw%}
+        expr: node_memory_used_percent > 80
+        for: 2m
+        labels:
+          severity: critical
+          type: InstanceAlert
+          kind: memoryHighUsage
+        annotations:
+          summary: {%raw%}"Memory High Usage - IP - [{{ $labels.instance}}], Name - [{{ $labels.instanceName}}]"{%endraw%}
+
+          description: {%raw%}"Memory High Usage - IP - [{{ $labels.instance}}], Name - [{{ $labels.instanceName}}]"{%endraw%}
