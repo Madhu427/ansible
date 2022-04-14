@@ -9,6 +9,7 @@ groups:
           severity: critical
           type: applicationAlerts
           kind: service alert
+          appName: {{component|lower}}
         annotations:
           summary: "{{component}} Component Service Down - IP - {%raw%}[{{ $labels.instance}}], Name - [{{ $labels.instanceName}}]"{%endraw%}
 
