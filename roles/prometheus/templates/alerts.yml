@@ -13,14 +13,14 @@ groups:
 
           description: {%raw%}"Instance Down - IP - [{{ $labels.instance}}], Name - [{{ $labels.instanceName}}]"{%endraw%}
 
-  - name: CPU Alerts
+  - name: Instance CPU Alerts
     rules:
       - alert: CpuUsageAlert
-        expr: CPU Percentage Usage > 80
+        expr: cpuUsagePercentage > 80
         for: 2m
         labels:
           severity: critical
-          type: InstanceAlert
+          type: instanceAlert
           kind: cpuHighUsage
         annotations:
           summary: {%raw%}"CPU High usage - IP - [{{ $labels.instance}}], Name - [{{ $labels.instanceName}}]"{%endraw%}
