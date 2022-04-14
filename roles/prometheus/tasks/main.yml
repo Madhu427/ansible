@@ -8,6 +8,10 @@
     src: records.yml
     dest: /opt/prometheus/records.yml
 
+- name: Update the alerts file
+  template:
+    src: alerts.yml
+    dest: /opt/prometheus/alerts.yml
 
 - name: Restart the Prometheus
   systemd:
