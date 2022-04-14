@@ -10,8 +10,8 @@ groups:
           type: applicationAlerts
           kind: service alert
         annotations:
-          summary: {%raw%}"{{component}} Component Service Down - IP - [{{ $labels.instance}}], Name - [{{ $labels.instanceName}}]"{%endraw%}
+          summary: "{{component}} Component Service Down - IP - {%raw%}[{{ $labels.instance}}], Name - [{{ $labels.instanceName}}]"{%endraw%}
 
-         description: {%raw%}"{{component}} Component Service Down - IP - [{{ $labels.instance}}], Name - [{{ $labels.instanceName}}]"{%endraw%}
+         description: "{{component}} Component Service Down - IP - {%raw%}[{{ $labels.instance}}], Name - [{{ $labels.instanceName}}]"{%endraw%}
 
 {% end for %}
