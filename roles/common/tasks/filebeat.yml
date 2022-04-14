@@ -7,3 +7,8 @@
   yum:
     name: filebeat
     state: installed
+
+- name: Copy filebeat configuration
+  template:
+    src: filebeat.yml
+    dest: /etc/filebeat/filebeat.yml
