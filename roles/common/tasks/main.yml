@@ -17,3 +17,6 @@
     state: restarted
     enabled: yes
   when: COMPONENT_TYPE == "APP"
+
+- name: filebeat config
+  import_tasks: filebeat.yml
