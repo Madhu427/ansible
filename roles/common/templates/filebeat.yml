@@ -1,8 +1,8 @@
 filebeat.inputs:
-  - type: filestream
-    enabled: true
-    paths:
-      - /var/log/{{COMPONENT}}.log
+- type: filestream
+  enabled: true
+  paths:
+    - /var/log/{{COMPONENT}}.log
 
 output.logstash:
   hosts: ["logstash.roboshop.internal:5044"]
