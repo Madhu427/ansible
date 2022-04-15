@@ -1,0 +1,11 @@
+- name : Copy logstash config
+  template:
+    src: logstash.conf
+    dest: /etc/logstash/conf.d/logstash.conf
+
+- name: Restart logstash file
+  systemd:
+    name: logstash
+    state: restarted
+    enabled: yes
+
