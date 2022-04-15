@@ -6,7 +6,7 @@ filebeat.inputs:
   fields:
     componentName: {{COMPONENT}}
     env: {{ENV}}
-    logType: json
+    logType: {{LOG_TYPE}}
   json.keys_under_root: true
 
 output.logstash:
