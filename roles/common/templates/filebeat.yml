@@ -1,5 +1,5 @@
 filebeat.inputs:
-- type: filestream
+- type: log
   enabled: true
   paths:
     - {{LOG_FILE}}
@@ -9,6 +9,12 @@ filebeat.inputs:
     logType: {{LOG_TYPE}}
 {% if LOG_TYPE == "json" %}
   json.keys_under_root: true
+{% endif %}
+{% if LOG_TYPE == "java" %}
+  multiline.type: pattern
+  multiline.pattern: '^\['
+  multiline.negate: true
+  multiline.match: after
 {% endif %}
 
 output.logstash:
