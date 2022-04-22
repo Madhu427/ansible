@@ -9,7 +9,7 @@ catalogue-dev.roboshop.internal APP_VERSION=1.0.1
 [SHIPPING]
 shipping-dev.roboshop.internal APP_VERSION=1.0.1
 [PAYMENT]
-payment-dev.roboshop.internal APP_VERSION=1.0.3
+payment-dev.roboshop.internal APP_VERSION=1.0.4
 [CART]
 cart-dev.roboshop.internal APP_VERSION=1.0.2
 [MYSQL]
