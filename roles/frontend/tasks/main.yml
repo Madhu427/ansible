@@ -41,11 +41,12 @@
   ansible.builtin.template:
     src: nginx.conf
     dest: /etc/nginx/nginx.conf
-  notify: Restart nginx
+#  notify: Restart nginx
 
 - name: Start nginx
   ansible.builtin.systemd:
     name: nginx
     state: started
     enabled: yes
+  ignore_errors: yes
 
